@@ -34,20 +34,7 @@ body{
   height: 15vw;
 
 }
-.section1 {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding-top:3.472vw;
-    height: 3vw;
-    background: black;
-}
-.section2 {
-    position: relative;
-    justify-content: center;
-    display: flex;
-    height: 47vw;
-}
+
 
 .im1{
   position: absolute;
@@ -88,90 +75,25 @@ width: 33.542vw;
  height: 34.722vw;
 }
 .box {
-
-
- flex: 0 1 auto;
+flex:auto;
 }
 .cont2 {
  display: flex;
  width: 100%;
- height: 300px;
+ height: 200px;
 }
 .box2 {
- flex: 0 1 auto;
  background-color: #FF029C;
- height: 33.125vw;
+ height: 33vw;
 width: 100%;
 }
 .box1 {
- flex: 0 1 auto;
  background-color: #FFFFFF;
- height: 33.125vw;
+ height: 33vw;
 width: 100%;
 }
 .box3 {
- flex: 0 1 auto;
  background-color: #FFFFFF;
- height: 33.125vw;
+ height: 33vw;
 width: 100%;
 }
-.container1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 2fr 2fr 2fr;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "s1 s2 s3"
-    "s4 s5 s6"
-    "s7 s8 s9";
-}
-
-.s1 {
-  position: absolute;
-  grid-area: s1;
-  background-color: white;
-}
-
-.s2 {
-  position: absolute;
-   grid-area: s2;
- }
-
-.s3 {
-  position: absolute;
-   grid-area: s3;
-   background-color: white;
- }
-
-.s4 {
-  position: absolute;
-   grid-area: s4;
- }
-
-.s5 {
-  position: absolute;
-   grid-area: s5;
-   background-color: white;
- }
-
-.s6 {
-  position: absolute;
-   grid-area: s6;
-   background-color: white;
-  }
-
-.s7 {
-   grid-area: s7;
-   background-color: white;
- }
-
-.s8 {
-  position: absolute;
-   grid-area: s8;
- }
-
-.s9 {
-  background-color: white;
-  position: absolute;
-   grid-area: s9;
- }
