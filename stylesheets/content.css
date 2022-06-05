@@ -2,7 +2,7 @@ body{
   background-color: black
 }
 .header{
-  height: 21.181vw;
+  height: 10.181vw;
 width: 100%;
 left: -0.972vw;
 top: -4.514vw;
@@ -71,12 +71,12 @@ width: 33.542vw;
 .box2 {
  flex: 0 1 auto;
 }
-.my-flex-box:nth-child(1) {
+.box:nth-child(1) {
  flex: 1 1 auto;
 }
-.my-flex-box:nth-child(2) {
+.box:nth-child(2) {
  flex: 1 1 auto;
 }
-.my-flex-box:nth-child(3) {
+.box:nth-child(3) {
  flex: 1 1 0;
 }
