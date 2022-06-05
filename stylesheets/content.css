@@ -12,6 +12,11 @@ body{
   right: 9.38%;
   top: 2vw;
   height: 12vw;
+}
+.hp{
+  position: absolute;
+  top: 2vw;
+  height: 15vw;
 
 }
 .section1 {
@@ -19,7 +24,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
-    
+
     background: green;
 }
 .section2 {
