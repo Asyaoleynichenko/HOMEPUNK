@@ -75,6 +75,7 @@ width: 33.542vw;
 }
 .b2{
   width:100%;
+
 }
 .b1{
   width:100%;
@@ -114,7 +115,8 @@ width: 100%;
  height: 33.125vw;
 width: 100%;
 }
-.container1 {  display: grid;
+.container1 {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 2fr 2fr 2fr;
   grid-auto-flow: row;
@@ -125,38 +127,51 @@ width: 100%;
 }
 
 .s1 {
+  position: absolute;
   grid-area: s1;
   background-color: white;
 }
 
 .s2 {
+  position: absolute;
    grid-area: s2;
  }
 
 .s3 {
+  position: absolute;
    grid-area: s3;
+   background-color: white;
  }
 
 .s4 {
+  position: absolute;
    grid-area: s4;
  }
 
 .s5 {
+  position: absolute;
    grid-area: s5;
+   background-color: white;
  }
 
 .s6 {
+  position: absolute;
    grid-area: s6;
+   background-color: white;
   }
 
 .s7 {
    grid-area: s7;
+   background-color: white;
  }
 
 .s8 {
+  position: absolute;
    grid-area: s8;
  }
 
 .s9 {
+  background-color: white;
+  position: absolute;
    grid-area: s9;
  }
