@@ -108,3 +108,49 @@ width: 100%;
  height: 33.125vw;
 width: 100%;
 }
+.container1 {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "s1 s2 s3"
+    "s4 s5 s6"
+    "s7 s8 s9";
+}
+
+.s1 {
+  grid-area: s1;
+  background-color: white;
+}
+
+.s2 {
+   grid-area: s2;
+ }
+
+.s3 {
+   grid-area: s3;
+ }
+
+.s4 {
+   grid-area: s4;
+ }
+
+.s5 {
+   grid-area: s5;
+ }
+
+.s6 {
+   grid-area: s6;
+  }
+
+.s7 {
+   grid-area: s7;
+ }
+
+.s8 {
+   grid-area: s8;
+ }
+
+.s9 {
+   grid-area: s9;
+ }
