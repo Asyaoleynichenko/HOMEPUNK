@@ -23,10 +23,10 @@ body{
 }
 .vector{
   position: absolute;
-  left: 78.47%;
-  right: 9.38%;
-  top: 2vw;
-  height: 12vw;
+  left: 85%;
+  right: 9%;
+  top: 5vw;
+  height: 6vw;
 }
 .hp{
   position: absolute;
@@ -34,8 +34,6 @@ body{
   height: 15vw;
 
 }
-
-
 .im1{
   position: absolute;
   height: 23.958vw;
