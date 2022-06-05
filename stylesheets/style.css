@@ -1,0 +1,18 @@
+@import "reset.css";/* сбрoc настроек браузера */
+@import "layout.css"; /* макет  */
+@import "content.css"; /* контент / содержимое  */
+@import "responsive.css";/* адаптивность */
+@font-face {
+    font-family: "ProtoGroteskreg";
+    src: url("../fonts/ProtoGrotesk-regular-Desktop.otf") format("truetype");
+  }
+.h1{
+font-family:ProtoGroteskreg;
+font-size:2vw ;
+position: absolute;
+}
+.span{
+  font-family:ProtoGroteskreg;
+  font-size:2vw ;
+  position: absolute;
+}
