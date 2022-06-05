@@ -1,5 +1,19 @@
+
 body{
   background-color: black
+}
+.menu-items {
+  display: flex;
+  justify-content: space-around;
+}
+.menu-items a:hover {
+  opacity: 1;
+}
+.menu-items a {
+  line-height: 46px;
+  color: white;
+  opacity: .9;
+  text-decoration: none;
 }
 .header-title{
   height: 15vw;
@@ -93,13 +107,4 @@ width: 100%;
  background-color: #FFFFFF;
  height: 33.125vw;
 width: 100%;
-}
-.box:nth-child(1) {
- flex: 1 1 auto;
-}
-.box:nth-child(2) {
- flex: 1 1 auto;
-}
-.box:nth-child(3) {
- flex: 1 1 0;
 }
