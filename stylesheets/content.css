@@ -1,19 +1,17 @@
 body{
   background-color: black
 }
-.header{
-  height: 10.181vw;
-width: 100%;
-left: -0.972vw;
-top: -4.514vw;
-background-color: black;
+.header-title{
+  height: 15vw;
+  width: 100%;
+  background-color: black;
 }
 .vector{
-  height: 154px;
-width: 175px;
-left: 1130px;
-top: 21.3094482421875px;
-border-radius: 0px;
+  position: absolute;
+  left: 78.47%;
+  right: 9.38%;
+  top: 2vw;
+  height: 12vw;
 
 }
 .section1 {
@@ -21,8 +19,7 @@ border-radius: 0px;
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
-    padding-bottom: 20px;
-    margin-bottom: 10px;
+    
     background: green;
 }
 .section2 {
@@ -45,14 +42,6 @@ width: 33.542vw;
   height:23.958vw;
 }
 
-
-.headtxt{
-  position: absolute;
-  text-decoration-color: black;
-  width: 100%;
-  background:white;
-  padding: 1.389vw;
-  }
 .line1{
   position: absolute;
   color: white;
