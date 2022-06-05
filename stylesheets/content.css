@@ -4,7 +4,8 @@ body{
 }
 .menu-items  {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 1.7vw 1.7vw 1.7vw 1.7vw 1.7vw;
 }
 .menu-items a:hover {
   opacity: 1;
@@ -52,8 +53,12 @@ body{
   position: absolute;
   height: 23.958vw;
 width: 33.542vw;
-
-
+}
+.star{
+  height: 17.361vw;
+  width: 19.375vw;
+  padding-top: 8vw;
+  padding-left: 5vw;
 
 }
 .im2{
@@ -73,6 +78,7 @@ width: 33.542vw;
 }
 .b1{
   width:100%;
+
 }
 /* ------------*/
 .cont {
