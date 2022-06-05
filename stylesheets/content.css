@@ -1,11 +1,12 @@
 body{
-  background-color: black;
+  background-color: black
 }
 .header{
   height: 21.181vw;
-width: 91.597vw;
+width: 100%;
 left: -0.972vw;
 top: -4.514vw;
+background-color: black;
 }
 .section1 {
     position: relative;
@@ -22,37 +23,7 @@ top: -4.514vw;
     display: flex;
     height: 47vw;
 }
-.container1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1.6fr;
-  grid-template-areas:
-    "l2 b1 b1"
-    "l2 b1 b1"
-    "b2 b3 b4";
-}
 
-.b2 {
-  grid-area: b2;
-  background-color: white;
-}
-
-.b3 {
-  grid-area: b3;
-  background-color: #FF029C;
-}
-
-.b4 {
-   grid-area: b4;
-   background-color: white;
- }
-
-.b1 {
-  grid-area: b1;
-}
-.g1{
-  width: 67vw;
-}
 .im1{
   position: absolute;
   height: 23.958vw;
@@ -63,15 +34,11 @@ width: 33.542vw;
 }
 .im2{
   position: absolute;
-  height: 20.139vw;
-width: 20.972vw;
+
 
 
 
 }
-.l2 {
-   grid-area: l2;
- }
 
 .headtxt{
   position: absolute;
@@ -86,4 +53,15 @@ width: 20.972vw;
   width: 100%;
   background:black;
   padding: 1.389vw;
+}
+/* ------------*/
+.my-flex-cont {
+ display: inline-flex;
+ width: 100%;
+ height: 34.722vw;
+}
+.my-flex-box {
+ margin: 0.347vw;
+ padding: 0.347vw;
+ flex: 0 1 auto;
 }
