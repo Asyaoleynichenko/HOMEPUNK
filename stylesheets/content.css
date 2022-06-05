@@ -1,8 +1,9 @@
-
+*:focus {}
 body{
   background-color: black
 }
-.menu-items {
+.menu-items  {
+  margin: 1vw;
   display: flex;
   justify-content: space-around;
 }
@@ -39,7 +40,7 @@ body{
     justify-content: space-between;
     padding-top:3.472vw;
     height: 3vw;
-    background: green;
+    background: black;
 }
 .section2 {
     position: relative;
