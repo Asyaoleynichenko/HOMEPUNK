@@ -3,7 +3,6 @@ body{
   background-color: black
 }
 .menu-items  {
-  margin: 1vw;
   display: flex;
   justify-content: space-around;
 }
