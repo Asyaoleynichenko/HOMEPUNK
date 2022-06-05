@@ -1,18 +1,34 @@
 @import "reset.css";/* сбрoc настроек браузера */
-@import "layout.css"; /* макет  */
 @import "content.css"; /* контент / содержимое  */
 @import "responsive.css";/* адаптивность */
 @font-face {
-    font-family: "ProtoGroteskreg";
-    src: url("../fonts/ProtoGrotesk-regular-Desktop.otf") format("truetype");
+    font-family: "ProtoGroteskb";
+    src: url("../fonts/ProtoGrotesk-bold_Desktop.otf") format("opentype");
   }
+  @font-face {
+      font-family: "ProtoGroteskr";
+      src: url("../fonts/ProtoGrotesk-regular-Desktop.otf") format("opentype");
+    }
+    @font-face {
+        font-family: "ProtoGroteskex";
+        src: url("../fonts/ProtoGrotesk-extralight-Desktop.otf") format("opentype");
+      }
+      @font-face {
+          font-family: "ProtoGroteskl";
+          src: url("../fonts/ProtoGrotesk-light-Desktop.otf") format("opentype");
+        }
 .h1{
-font-family:ProtoGroteskreg;
+font-family:ProtoGroteskb;
 font-size:2vw ;
 position: absolute;
 }
 .span{
-  font-family:ProtoGroteskreg;
+  font-family:ProtoGroteskb;
   font-size:2vw ;
+  position: absolute;
+}
+.text1{
+  font-family:ProtoGroteskb;
+  font-size:6.944vw;
   position: absolute;
 }
