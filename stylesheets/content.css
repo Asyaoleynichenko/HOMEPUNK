@@ -23,8 +23,8 @@ body{
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
-
+    padding-top:3.472vw;
+    height: 3vw;
     background: green;
 }
 .section2 {
