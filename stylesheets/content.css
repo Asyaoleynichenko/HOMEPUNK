@@ -11,7 +11,7 @@ body{
   opacity: 1;
 }
 .menu-items a {
-  line-height: 46px;
+  line-height: 3vw;
   color: white;
   opacity: .9;
   text-decoration: none;
