@@ -196,8 +196,9 @@ width: 100%;
 }
 /*содержимое магазина*/
 .tshirt{
-  height: 37.5vw;
-  width: 39.167vw;
+  height: 35vw;
+  width: 32vw;
+  padding-top: 3vw;
 
 }
 .tapki{
