@@ -101,3 +101,37 @@ width: 100%;
  height: 33vw;
 width: 100%;
 }
+/*shop*/
+/* ------------*/
+.merch{
+  height: 5.208vw;
+width: 100%;
+background-color: #FF029C;
+top: 24.583vw;
+}
+.merchline{
+  position: absolute;
+  height: 5.208vw;
+width: 100%;
+background-color: #FF029C;
+top: 24.583vw;
+}
+.cont2s {
+ display: flex;
+ width: 100%;
+}
+.box2s {
+ background-color: black;
+ height: 35vw;
+width: 100%;
+}
+.box1s {
+ background-color: #FFFFFF;
+ height: 35vw;
+width: 100%;
+}
+.box3s {
+ background-color: #FFFFFF;
+ height: 35vw;
+width: 100%;
+}
