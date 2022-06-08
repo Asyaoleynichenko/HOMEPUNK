@@ -194,52 +194,60 @@ width: 100%;
 }
 /*содержимое магазина*/
 .tshirt{
-  height: 540.2031223326659px;
-width: 564.4644747519343px;
-left: -59px;
+  height: 37.5vw;
+  width: 39.167vw;
+
 }
 .tapki{
-  height: 369.5186433845961px;
-  width: 470.15624636663483px;
-  left: 517.203125px;
+  height: 25.625vw;
+  width: 32.639vw;
 }
 .tshirt2{
-  height: 526.914052109479px;
-  width: 570.352832991166px;
-  left: 921.595703125px;
-  top: 399px;
+  height: 36.528vw;
+  width: 39.583vw;
 }
 .socks{
-  height: 442.57852825497054px;
-  width: 316.13806618534653px;
-  left: 147.1376953125px;
-  top: 898.7905883789062px;
+  height: 30.694vw;
+  width: 21.944vw;
+
 }
 .hoodie{
-  height: 451.45995447982637px;
-  width: 453.94793051845716px;
-  left: 501px;
-  top: 919.1666870117188px;
+  height: 31.319vw;
+  width: 31.458vw;
+
 }
 .tshirt3{
+  height: 39.514vw;
+  width: 32.361vw;
 
 }
 .mat1{
+  height: 278px;
+  width: 428px;
 
 }
 .books{
+  height: 417px;
+  width: 269px;
 
 }
 .mat2{
-
+  height: 278px;
+  width: 415px;
 }
 .symka{
+  height: 482px;
+  width: 342px;
 
 }
 .ytkas{
+  height: 404px;
+  width: 435px;
 
 }
 .mask{
+  height: 293px;
+  width: 556px;
 
 }
 /*содержимое магазина*/
