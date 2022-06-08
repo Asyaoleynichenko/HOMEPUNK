@@ -1,6 +1,7 @@
 *:focus {}
 body{
-  background-color: black
+  background-color: black;
+  overflow-x: hidden;
 }
 .menu-items  {
   display: flex;
