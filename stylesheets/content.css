@@ -113,9 +113,14 @@ top: 24.583vw;
 .merchline{
   position: absolute;
   height: 5.208vw;
-width: 100%;
-background-color: #FF029C;
-top: 24.583vw;
+  width: 100%;
+  background-color: #FF029C;
+  top: 24.583vw;
+}
+.merchline2{
+  position: absolute;
+  height: 5.208vw;
+  width: 100%;
 }
 .cont2s {
  display: flex;
