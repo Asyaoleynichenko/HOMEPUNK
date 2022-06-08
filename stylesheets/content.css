@@ -120,13 +120,13 @@ top: 24.583vw;
  display: flex;
  width: 100%;
 }
-.box2s {
- background-color: black;
+.box1s {
+ background-color: #FFFFFF;
  height: 35vw;
 width: 100%;
 }
-.box1s {
- background-color: #FFFFFF;
+.box2s {
+ background-color: black;
  height: 35vw;
 width: 100%;
 }
@@ -134,4 +134,32 @@ width: 100%;
  background-color: #FFFFFF;
  height: 35vw;
 width: 100%;
+}
+.cont3s {
+ display: flex;
+ width: 100%;
+}
+.box4s {
+ background-color: black;
+ height: 35vw;
+width: 100%;
+}
+.box5s {
+ background-color: #FFFFFF;
+ height: 35vw;
+width: 100%;
+}
+.box6s {
+ background-color:black;
+ height: 35vw;
+width: 100%;
+}
+.cont4s {
+ display: flex;
+ width: 100%;
+}
+
+.cont5s {
+ display: flex;
+ width: 100%;
 }
