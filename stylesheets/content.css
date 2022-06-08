@@ -158,8 +158,37 @@ width: 100%;
  display: flex;
  width: 100%;
 }
-
+.box7s {
+ background-color: #FFFFFF;
+ height: 35vw;
+width: 100%;
+}
+.box8s {
+ background-color: black;
+ height: 35vw;
+width: 100%;
+}
+.box9s {
+ background-color:#FFFFFF;
+ height: 35vw;
+width: 100%;
+}
 .cont5s {
  display: flex;
  width: 100%;
+}
+.box10s {
+ background-color: black;
+ height: 35vw;
+width: 100%;
+}
+.box11s {
+ background-color: #FFFFFF;
+ height: 35vw;
+width: 100%;
+}
+.box12s {
+ background-color:black;
+ height: 35vw;
+width: 100%;
 }
