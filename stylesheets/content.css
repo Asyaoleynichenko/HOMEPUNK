@@ -176,6 +176,7 @@ width: 100%;
 .cont5s {
  display: flex;
  width: 100%;
+
 }
 .box10s {
  background-color: black;
@@ -201,10 +202,12 @@ width: 100%;
 .tapki{
   height: 25.625vw;
   width: 32.639vw;
+  padding-top:7vw;
 }
 .tshirt2{
-  height: 36.528vw;
-  width: 39.583vw;
+  height: 28vw;
+  width: 28vw;
+  padding-top:6vw;
 }
 .socks{
   height: 30.694vw;
