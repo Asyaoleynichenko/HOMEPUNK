@@ -212,49 +212,54 @@ width: 100%;
   padding-top:6vw;
 }
 .socks{
-  height: 30.694vw;
-  width: 21.944vw;
+  height: 38vw;
+  width: 30vw;
 
 }
 .hoodie{
-  height: 31.319vw;
-  width: 31.458vw;
+  height: 33vw;
+  width: 33vw;
 
 }
 .tshirt3{
-  height: 39.514vw;
-  width: 32.361vw;
+  height: 35vw;
+  width: 32vw;
 
 }
 .mat1{
-  height: 19.306vw;
-  width: 29.722vw;
+  height: 24vw;
+  width: 29vw;
+  padding-top: 5vw;
 
 }
 .books{
-  height: 28.958vw;
-  width: 18.681vw;
+  height: 28vw;
+  width: 18vw;
   padding-top: 3vw;
-  padding-left: 5vw;
+  padding-left: 7vw;
 
 }
 .mat2{
-  height: 19.306vw;
-  width: 28.819vw;
+  height: 26vw;
+  width: 29vw;
+  padding-top: 5vw;
+  padding-left: 2vw;
 }
 .symka{
-  height: 33.472vw;
-  width: 23.750vw;
+  height: 35vw;
+  width: 25vw;
 
 }
 .ytkas{
-  height: 28.056vw;
-  width: 30.208vw;
+  height: 25vw;
+  width: 28vw;
+  padding-top: 5vw;
+  padding-left: 3vw;
 
 }
 .mask{
-  height: 20.347vw;
-  width: 38.611vw;
+  height: 30vw;
+  width: 30vw;
 
 }
 /*содержимое магазина*/
