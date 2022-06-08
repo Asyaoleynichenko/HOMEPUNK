@@ -307,6 +307,12 @@ border: 1px double white;
  height: 35vw;
  width: 100%;
   border: 1px double white;
-  background-image: url("../images/eye.svg");
+}
+.eye{
+  position: absolute;
+  width: 29vw;
+  height: 25vw;
+  padding-left: 3vw;
+  padding-top: 7vw;
 }
 /* ------------*/
