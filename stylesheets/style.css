@@ -48,3 +48,27 @@ a{
   font-size:2.5vw;
   color: white;
 }
+.p1c{
+  font-family:ProtoGroteskr;
+  position: absolute;
+  padding-top: 7vw;
+  width: 28vw;
+  font-size:4vw ;
+  color: white;
+}
+.p2c{
+  font-family:ProtoGroteskr;
+  position: absolute;
+  padding-top: 7vw;
+  width: 28vw;
+  font-size:2.778vw ;
+  color: white;
+}
+.p3c{
+  font-family:ProtoGroteskr;
+  position: absolute;
+  padding-top: 20vw;
+  width: 30vw;
+  font-size:2.778vw ;
+  color: white;
+}

@@ -268,3 +268,45 @@ width: 100%;
 
 }
 /*содержимое магазина*/
+/*contacts*/
+.cont2c {
+ display: flex;
+ width: 100%;
+}
+.box1c {
+ border: 1px double white;
+ height: 35vw;
+ width: 100%;
+}
+.box2c {
+border: 1px double white;
+ height: 35vw;
+ width: 100%;
+}
+.box3c {
+ height: 35vw;
+ width: 100%;
+  border: 1px double white;
+  background-image: url("../images/Basemap image.svg");
+}
+.cont3c {
+ display: flex;
+ width: 100%;
+}
+.box4c {
+ border: 1px double white;
+ height: 35vw;
+ width: 100%;
+}
+.box5c {
+border: 1px double white;
+ height: 35vw;
+ width: 100%;
+}
+.box6c {
+ height: 35vw;
+ width: 100%;
+  border: 1px double white;
+  background-image: url("../images/eye.svg");
+}
+/* ------------*/
