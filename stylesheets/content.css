@@ -280,6 +280,47 @@ width: 100%;
 
 
 /*содержимое магазина*/
+/*корзина*/
+.cont2sc {
+ display: flex;
+ width: 100%;
+ background-color: #FF029C;
+}
+.box1sc {
+  border: 1px double black;
+ height: 35vw;
+ width: 100%;
+}
+.box2sc {
+  border: 1px double black;
+ height: 35vw;
+ width: 100%;
+}
+.box3sc {
+ height: 35vw;
+ width: 100%;
+  border: 1px double black;
+}
+.cont3sc {
+ display: flex;
+ width: 100%;
+}
+.box4sc {
+  border: 1px double black;
+ height: 35vw;
+ width: 100%;
+}
+.box5sc {
+  border: 1px double black;
+ height: 35vw;
+ width: 100%;
+}
+.box6sc {
+ height: 35vw;
+ width: 100%;
+  border: 1px double black;
+}
+/*корзина*/
 /*contacts*/
 .cont2c {
  display: flex;
