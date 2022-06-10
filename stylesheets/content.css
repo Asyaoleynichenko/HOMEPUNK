@@ -95,6 +95,31 @@ body{
       .bl {
       animation: pl-move 7s linear infinite reverse;
       }
+      .blacklineV{
+         position: static;
+         width: 6%;
+         height: 5.417vw;
+         background: black;
+         transform: rotate(90deg);
+       }
+       .blV {
+         position: absolute;
+         width: 244VW;
+         height: 244VW;
+         font-family: 'ProtoGroteskb';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 6.95vw;
+         line-height: 5.5vw;
+         color: white;
+       }
+       @keyframes blV-move {
+          0% {left: 100vw;}
+          100% {left: 200vw;}
+        }
+        .bl {
+        animation: pl-move 7s linear infinite reverse;
+        }
   /*линии*/
 .vector{
   position: absolute;
