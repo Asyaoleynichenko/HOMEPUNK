@@ -281,6 +281,10 @@ width: 100%;
 
 /*содержимое магазина*/
 /*корзина*/
+.back{
+  position: absolute;
+  top: 31vw;
+}
 .cont2sc {
  display: flex;
  width: 100%;
@@ -367,5 +371,49 @@ border: 1px double white;
   height: 25vw;
   padding-left: 3vw;
   padding-top: 7vw;
+}
+/*afisha*/
+}
+.box1a{
+border: 1px double white;
+
+}
+.box2a{
+  border: 1px double white;
+
+}
+.box3a{
+  border: 1px double white;
+
+}
+.box4a{
+  border: 1px double white;
+
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items2:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
 }
 /* ------------*/
