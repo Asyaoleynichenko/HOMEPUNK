@@ -383,19 +383,16 @@ border: 1px double white;
 /*afisha*/
 }
 .box1a{
-border: 1px double white;
 
 }
 .box2a{
-  border: 1px double white;
+
 
 }
 .box3a{
-  border: 1px double white;
 
 }
 .box4a{
-  border: 1px double white;
 
 }
 .flex-container {
@@ -404,13 +401,13 @@ border: 1px double white;
 }
 
 .flex-container1 {
-  width: 600px;
+  width: 41.667vw;
   display: flex;
   flex-direction: column;
 }
 
 .flex-container2 {
-  width: 836px;
+  width: 60vw;
   display: flex;
   flex-direction: column;
 }
