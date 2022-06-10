@@ -267,6 +267,18 @@ width: 100%;
   width: 30vw;
 
 }
+.korzina{
+  position:absolute;
+  height: 8vw;
+  width: 8vw;
+  right: 1vw;
+  top: 160vw;
+  z-index: 3;
+  vertical-align: baseline;
+
+}
+
+
 /*содержимое магазина*/
 /*contacts*/
 .cont2c {
