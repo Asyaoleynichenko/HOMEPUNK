@@ -283,7 +283,7 @@ width: 100%;
 /*корзина*/
 .back{
   position: absolute;
-  top: 31vw;
+  top: 34vw;
 }
 .cont2sc {
  display: flex;
@@ -324,6 +324,31 @@ width: 100%;
  width: 100%;
   border: 1px double black;
 }
+.Rectangle13 {
+   position: static;
+   width: 100%;
+   height: 5.417vw;
+   background: #FF029C;
+   padding-top: 7vw;
+ }
+ .row13 {
+   position: absolute;
+   width: 3525.91px;
+   height: 325.52px;
+   font-family: 'ProtoGroteskb';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 6.944vw;
+   line-height: 5.417vw;
+   color: black;
+ }
+ @keyframes row-move13 {
+    0% {right: -150vw;}
+    100% {right: -200vw;}
+  }
+  .row-move13 {
+  animation: row-move13 7s linear infinite;
+  }
 /*корзина*/
 /*contacts*/
 .cont2c {
