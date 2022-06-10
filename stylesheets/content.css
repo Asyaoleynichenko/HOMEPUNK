@@ -76,6 +76,7 @@ body{
        width: 100%;
        height: 5.417vw;
        background: black;
+       z-index: 3;
      }
      .bl {
        position: absolute;
@@ -100,6 +101,7 @@ body{
          width: 6%;
          height: 5.417vw;
          background: black;
+         z-index: 2;
          transform: rotate(90deg);
        }
        .blV {
