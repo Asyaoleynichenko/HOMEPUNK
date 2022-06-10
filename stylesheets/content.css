@@ -400,24 +400,18 @@ border: 1px double white;
 }
 .flex-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: stretch;
+
 }
 
-.flex-items:nth-child(1) {
-  display: block;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
+.flex-container1 {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
 }
 
-.flex-items2:nth-child(2) {
-  display: block;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
+.flex-container2 {
+  width: 836px;
+  display: flex;
+  flex-direction: column;
 }
 /* ------------*/
