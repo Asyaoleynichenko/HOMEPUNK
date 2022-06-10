@@ -338,8 +338,8 @@ width: 100%;
    font-family: 'ProtoGroteskb';
    font-style: normal;
    font-weight: 700;
-   font-size: 6.944vw;
-   line-height: 5.417vw;
+   font-size: 6.95vw;
+   line-height: 5.5vw;
    color: black;
  }
  @keyframes row-move13 {
@@ -426,19 +426,15 @@ border: 1px double white;
 
 .flex-items:nth-child(1) {
   display: block;
-  flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
   align-self: auto;
-  order: 0;
 }
 
 .flex-items2:nth-child(2) {
   display: block;
-  flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
   align-self: auto;
-  order: 0;
 }
 /* ------------*/
