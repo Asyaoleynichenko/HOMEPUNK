@@ -41,8 +41,11 @@ body{
    color: black;
  }
  @keyframes pl-move {
-    0% {right: -150vw;}
-    100% {right: -200vw;}
+    0% {right: -15vw;}
+    100% {right: -50vw;}
+    .PL-move:hover {
+ animation-play-state: paused;
+ }
   }
   .pl {
   animation: pl-move 7s linear infinite;
@@ -65,8 +68,8 @@ body{
      color: black;
    }
    @keyframes wl-move {
-      0% {left: 100vw;}
-      100% {left: 200vw;}
+      0% {left: 50vw;}
+      100% {left: 100vw;}
     }
     .wl {
     animation: pl-move 7s linear infinite reverse;
@@ -76,7 +79,7 @@ body{
        width: 100%;
        height: 5.417vw;
        background: black;
-       z-index: 3;
+       z-index: 0;
      }
      .bl {
        position: absolute;
@@ -94,7 +97,7 @@ body{
         100% {left: 200vw;}
       }
       .bl {
-      animation: pl-move 7s linear infinite reverse;
+      animation: Bl-move 7s linear infinite reverse;
       }
       .blacklineV{
          position: static;
