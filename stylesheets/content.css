@@ -104,8 +104,8 @@ body{
          width: 6%;
          height: 5.417vw;
          background: black;
-         z-index: 2;
-         transform: rotate(90deg);
+         z-index: 0;
+         transform: rotate(-90deg);
        }
        .blV {
          position: absolute;
@@ -117,14 +117,34 @@ body{
          font-size: 6.95vw;
          line-height: 5.5vw;
          color: white;
+
+       }
+       .blV {
+       	-webkit-animation: blV-move 4s linear infinite both;
+       	        animation: blV-move 4s linear infinite both;
+       }
+       @-webkit-keyframes blV-move {
+         0% {
+           -webkit-transform: translateX(-150px);
+                   transform: translateX(-150px);
+         }
+         100% {
+           -webkit-transform: translateX(0px);
+                   transform: translateX(0px);
+         }
        }
        @keyframes blV-move {
-          0% {left: 100vw;}
-          100% {left: 200vw;}
-        }
-        .bl {
-        animation: pl-move 7s linear infinite reverse;
-        }
+         0% {
+           -webkit-transform: translateX(-200px);
+                   transform: translateX(-200px);
+         }
+         100% {
+           -webkit-transform: translateX(-150px);
+                   transform: translateX(-270px);
+         }
+       }
+
+
   /*линии*/
 .vector{
   position: absolute;
