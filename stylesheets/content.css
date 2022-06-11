@@ -491,3 +491,39 @@ width: 100%;
   flex-direction: column;
 }
 /* ------------*/
+/*place*/
+.place1{
+  position: absolute;
+  height: 32.986vw;
+  width: 43.889vw;
+  left: 53.889vw;
+  top: 63.194vw;
+
+}
+@keyframes pl-move {
+   0% {right: -15vw;}
+   100% {right: -50vw;}
+   .PL-move:hover {
+animation-play-state: paused;
+}
+ }
+ .place1 {
+ animation: pl-move 7s linear infinite;
+ }
+.place2{
+  position: absolute;
+  height: 40.556vw;
+  width: 43.889vw;
+  left: 8.264vw;
+  top: 27.014vw;
+
+}
+.place3{
+  position: absolute;
+  height: 33.056vw;
+  width: 50.625vw;
+  left: -4.236vw;
+  top: 73.264vw;
+
+}
+/*place*/
