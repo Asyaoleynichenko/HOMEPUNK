@@ -19,17 +19,17 @@ button:hover {
   color: #FF029C;
 }
 .button1{
-  border: 0px ;
   background-color: black;
   color: #FF029C;
   border: none;
-  margin-bottom:1vw
+  z-index: 6;
 }
 .button2{
-  border: 0px ;
+
   background-color: #FF029C;
   color:black;
   border: none;
+  z-index: 6;
 }
 input[type="text"],
    input[type="email"],
