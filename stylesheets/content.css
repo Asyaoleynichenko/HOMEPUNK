@@ -32,7 +32,6 @@ body{
  .pl {
    position: absolute;
    width: 244VW;
-   height: 244VW;
    font-family: 'ProtoGroteskb';
    font-style: normal;
    font-weight: 700;
@@ -43,10 +42,10 @@ body{
  @keyframes pl-move {
     0% {right: -15vw;}
     100% {right: -50vw;}
-    .PL-move:hover {
- animation-play-state: paused;
- }
   }
+  .pl-move:hover {
+animation-play-state: paused;
+}
   .pl {
   animation: pl-move 7s linear infinite;
   }
@@ -59,7 +58,6 @@ body{
    .wl {
      position: absolute;
      width: 244VW;
-     height: 244VW;
      font-family: 'ProtoGroteskb';
      font-style: normal;
      font-weight: 700;
@@ -68,49 +66,47 @@ body{
      color: black;
    }
    @keyframes wl-move {
-      0% {left: 50vw;}
-      100% {left: 100vw;}
+     0% {right: -15vw;}
+     100% {right: -50vw;}
     }
     .wl {
-    animation: pl-move 7s linear infinite reverse;
+    animation: wl-move 7s linear infinite reverse;
     }
     .blackline {
        position: static;
        width: 100%;
        height: 5.417vw;
        background: black;
-       z-index: 0;
+       z-index: 2;
      }
      .bl {
        position: absolute;
        width: 244VW;
-       height: 244VW;
        font-family: 'ProtoGroteskb';
        font-style: normal;
        font-weight: 700;
        font-size: 6.95vw;
        line-height: 5.5vw;
        color: white;
+       z-index: 2;
      }
      @keyframes bl-move {
-        0% {left: 100vw;}
-        100% {left: 200vw;}
+       0% {right: -15vw;}
+       100% {right: -50vw;}
       }
       .bl {
-      animation: Bl-move 7s linear infinite reverse;
+      animation: bl-move 7s linear infinite reverse;
       }
       .blacklineV{
          position: static;
          width: 6%;
          height: 5.417vw;
          background: black;
-         z-index: 0;
+         z-index: 1;
          transform: rotate(-90deg);
        }
        .blV {
          position: absolute;
-         width: 244VW;
-         height: 244VW;
          font-family: 'ProtoGroteskb';
          font-style: normal;
          font-weight: 700;
@@ -213,17 +209,17 @@ flex:auto;
 }
 .box2 {
  background-color: #FF029C;
- height: 33vw;
+ height: 32vw;
 width: 100%;
 }
 .box1 {
  background-color: #FFFFFF;
- height: 33vw;
+ height: 32vw;
 width: 100%;
 }
 .box3 {
  background-color: #FFFFFF;
- height: 33vw;
+ height: 32vw;
 width: 100%;
 }
 /*shop*/
