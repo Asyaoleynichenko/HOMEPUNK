@@ -5,7 +5,7 @@ body{
 }
 button{
   position:
-  
+
   border: 1px solid white;
   box-sizing: border-box;
   height: 6.250vw;
@@ -19,6 +19,14 @@ button{
 }
 button:hover {
   color: #FF029C;
+}
+.button1{
+  background-color: black;
+  color: #FF029C;
+}
+.button2{
+  background-color: #FF029C;
+  color:black;
 }
 input[type="text"],
    input[type="email"],
