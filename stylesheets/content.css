@@ -9,7 +9,7 @@ body{
   padding: 1.7vw 1.7vw 1.7vw 1.7vw 1.7vw;
 }
 .menu-items a:hover {
-  opacity: 1;
+  color: #FF029C;
 }
 .menu-items a {
   line-height: 3vw;
