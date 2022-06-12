@@ -277,20 +277,21 @@ width: 100%;
 .cont2s {
  display: flex;
  width: 100%;
+ height: 32vw;
 }
 .box1s {
  background-color: #FFFFFF;
- height: 35vw;
+ height: 32vw;
 width: 100%;
 }
 .box2s {
  background-color: black;
- height: 35vw;
+ height: 32vw;
 width: 100%;
 }
 .box3s {
  background-color: #FFFFFF;
- height: 35vw;
+ height: 32vw;
 width: 100%;
 }
 .cont3s {
@@ -299,17 +300,17 @@ width: 100%;
 }
 .box4s {
  background-color: black;
- height: 35vw;
+ height: 32vw;
 width: 100%;
 }
 .box5s {
  background-color: #FFFFFF;
- height: 35vw;
+ height: 32vw;
 width: 100%;
 }
 .box6s {
  background-color:black;
- height: 35vw;
+ height: 32vw;
 width: 100%;
 }
 .cont4s {
@@ -318,17 +319,17 @@ width: 100%;
 }
 .box7s {
  background-color: #FFFFFF;
- height: 35vw;
+ height: 32vw;
 width: 100%;
 }
 .box8s {
  background-color: black;
- height: 35vw;
+ height: 32vw;
 width: 100%;
 }
 .box9s {
  background-color:#FFFFFF;
- height: 35vw;
+ height: 32vw;
 width: 100%;
 }
 .cont5s {
@@ -338,17 +339,17 @@ width: 100%;
 }
 .box10s {
  background-color: black;
- height: 35vw;
+ height: 32vw;
 width: 100%;
 }
 .box11s {
  background-color: #FFFFFF;
- height: 35vw;
+ height: 32vw;
 width: 100%;
 }
 .box12s {
  background-color:black;
- height: 35vw;
+ height: 32vw;
 width: 100%;
 }
 /*содержимое магазина*/
