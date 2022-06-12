@@ -4,10 +4,6 @@ body{
   overflow-x: hidden;
 }
 button{
-  display:flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: stretch;
   border: 1px solid white;
   box-sizing: border-box;
   height: 6.250vw;
@@ -15,11 +11,27 @@ button{
   font-family:ProtoGroteskb;
   font-size: 4.444vw;
   font-weight: 700;
-  justify-content: center;
   color:white;
   background-color: black;
   cursor: pointer;
 }
+input[type="text"],
+   input[type="email"],
+   select {
+     display: block;
+     font-family:ProtoGroteskb;
+     width: 90%;
+     color: white;
+     position: relative;
+     margin: 0.694vw auto;
+     height: 6.250vw;
+     padding: 0 18px;
+     font-size: 2.500vw;
+     border-radius: 1px;
+     border: 1px solid white;
+     background-color: black;
+
+   }
 .menu-items  {
   display: flex;
   justify-content: space-between;
