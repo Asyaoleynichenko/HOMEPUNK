@@ -3,6 +3,21 @@ body{
   background-color: black;
   overflow-x: hidden;
 }
+button{
+  align-items: center;
+  border: 1px solid white;
+  box-sizing: border-box;
+  height: 36px;
+  width: 100%;
+  font-family:ProtoGroteskb;
+  font-size: 4.444vw;
+  color:white;
+  background-color: black;
+
+
+
+
+}
 .menu-items  {
   display: flex;
   justify-content: space-between;
