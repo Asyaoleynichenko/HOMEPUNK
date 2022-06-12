@@ -15,22 +15,28 @@ button{
   background-color: black;
   cursor: pointer;
 }
+button:hover {
+  color: #FF029C;
+}
 input[type="text"],
    input[type="email"],
    select {
      display: block;
      font-family:ProtoGroteskb;
-     width: 90%;
+     width: 92%;
      color: white;
      position: relative;
-     margin: 0.694vw auto;
      height: 6.250vw;
-     padding: 0 18px;
      font-size: 2.500vw;
-     border-radius: 1px;
-     border: 1px solid white;
+     border: none;
      background-color: black;
 
+   }
+   hr {
+     width: 100%;
+     display: block;
+     border: none;
+     border-bottom: 1px solid #ddd;
    }
 .menu-items  {
   display: flex;
