@@ -371,13 +371,11 @@ width: 100%;
 
 }
 .korzina{
-  position:absolute;
+  position:fixed;
   height: 8vw;
   width: 8vw;
   right: 1vw;
-  top: 160vw;
-  z-index: 3;
-  vertical-align: baseline;
+  top: 56vw;
 
 }
 
