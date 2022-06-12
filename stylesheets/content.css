@@ -4,19 +4,21 @@ body{
   overflow-x: hidden;
 }
 button{
-  align-items: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
   border: 1px solid white;
   box-sizing: border-box;
-  height: 36px;
+  height: 6.250vw;
   width: 100%;
   font-family:ProtoGroteskb;
   font-size: 4.444vw;
+  font-weight: 700;
+  justify-content: center;
   color:white;
   background-color: black;
-
-
-
-
+  cursor: pointer;
 }
 .menu-items  {
   display: flex;
