@@ -597,5 +597,12 @@ width: 100%;
   animation: place-move 2s linear infinite;
 
 }
+.cont2p{
+  display: flex;
+  width: 100%;
+  background-color: black;
+  border: 1px color white;
+
+}
 
 /*place*/
