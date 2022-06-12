@@ -4,6 +4,8 @@ body{
   overflow-x: hidden;
 }
 button{
+  position:
+  
   border: 1px solid white;
   box-sizing: border-box;
   height: 6.250vw;
@@ -23,7 +25,7 @@ input[type="text"],
    select {
      display: block;
      font-family:ProtoGroteskb;
-     width: 92%;
+     width: 93%;
      color: white;
      position: relative;
      height: 6.250vw;
