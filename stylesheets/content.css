@@ -391,8 +391,10 @@ width: 100%;
 /*содержимое магазина*/
 /*корзина*/
 .back{
-  position: absolute;
-  top: 34vw;
+  position:absolute;
+  Width: 3.750vw;
+  top: 30vw;
+  z-index: 6;
 }
 .cont2sc {
  display: flex;
