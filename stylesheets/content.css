@@ -23,10 +23,12 @@ button:hover {
 .button1{
   background-color: black;
   color: #FF029C;
+  border: none;
 }
 .button2{
   background-color: #FF029C;
   color:black;
+  border: none;
 }
 input[type="text"],
    input[type="email"],
