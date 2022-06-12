@@ -378,6 +378,14 @@ width: 100%;
   top: 56vw;
 
 }
+.circle{
+  position:fixed;
+  height: 14vw;
+  width: 12vw;
+  right: 1vw;
+  top: 54vw;
+
+}
 
 
 /*содержимое магазина*/
