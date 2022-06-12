@@ -568,11 +568,11 @@ width: 100%;
 /*place*/
 .place1{
   position: absolute;
-  height: 32.986vw;
-  width: 43.889vw;
+  height: 30vw;
+  width: 30vw;
   left: 53.889vw;
-  top: 63.194vw;
-  animation: place-move 7s linear infinite;
+  top: 40vw;
+  animation: place-move 3s linear infinite;
 
 }
 @keyframes place-move {
@@ -581,20 +581,20 @@ width: 100%;
    }
 .place2{
   position: absolute;
-  height: 40.556vw;
-  width: 43.889vw;
-  left: 8.264vw;
-  top: 27.014vw;
-  animation: place-move 7s linear infinite;
+  height: 30vw;
+  width: 30vw;
+  left: 15vw;
+  top: 23vw;
+  animation: place-move 4s linear infinite;
 
 }
 .place3{
   position: absolute;
-  height: 33.056vw;
-  width: 50.625vw;
+  height: 30vw;
+  width: 30vw;
   left: -4.236vw;
-  top: 73.264vw;
-  animation: place-move 7s linear infinite;
+  top: 25vw;
+  animation: place-move 2s linear infinite;
 
 }
 
