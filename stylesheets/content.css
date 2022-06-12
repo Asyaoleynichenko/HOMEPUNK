@@ -569,6 +569,10 @@ width: 100%;
 .box4a{
 
 }
+.box6a{
+  width: 100%;
+
+}
 .flex-container {
   display: flex;
 
@@ -622,8 +626,44 @@ width: 100%;
   display: flex;
   width: 100%;
   background-color: black;
-  border: 1px color white;
 
+}
+.box1p {
+border: 1px color white;
+width: 100%;
+}
+.box2p {
+  border: 1px color white;
+width: 100%;
+}
+.box3p {
+  border: 1px color white;
+width: 100%;
+}
+.cont3p {
+  border: 1px color white;
+ width: 100%;
+}
+.box4p {
+  border: 1px color white;
+width: 100%;
+}
+.box5p {
+  border: 1px color white;
+width: 100%;
+}
+.box6p {
+width: 100%;
+}
+
+.box7p {
+width: 100%;
+}
+.box8p {
+width: 100%;
+}
+.box9p {
+width: 100%;
 }
 
 /*place*/
