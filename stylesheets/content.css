@@ -4,8 +4,6 @@ body{
   overflow-x: hidden;
 }
 button{
-  position:
-
   border: 1px solid white;
   box-sizing: border-box;
   height: 6.250vw;
@@ -21,11 +19,14 @@ button:hover {
   color: #FF029C;
 }
 .button1{
+  border: 0px ;
   background-color: black;
   color: #FF029C;
   border: none;
+  margin-bottom:1vw
 }
 .button2{
+  border: 0px ;
   background-color: #FF029C;
   color:black;
   border: none;
@@ -357,43 +358,51 @@ width: 100%;
 }
 /*содержимое магазина*/
 .tshirt{
+  position: absolute;
   height: 35vw;
   width: 32vw;
   padding-top: 3vw;
 
 }
 .tapki{
+  position: absolute;
   height: 25.625vw;
   width: 32.639vw;
   padding-top:7vw;
 }
 .tshirt2{
+  position: absolute;
   height: 28vw;
   width: 28vw;
   padding-top:6vw;
 }
 .socks{
+  position: absolute;
   height: 38vw;
   width: 30vw;
 
 }
 .hoodie{
+  position: absolute;
   height: 33vw;
   width: 33vw;
 
 }
 .tshirt3{
+  position: absolute;
   height: 35vw;
   width: 32vw;
 
 }
 .mat1{
+  position: absolute;
   height: 24vw;
   width: 29vw;
   padding-top: 5vw;
 
 }
 .books{
+  position: absolute;
   height: 28vw;
   width: 18vw;
   padding-top: 3vw;
@@ -401,17 +410,20 @@ width: 100%;
 
 }
 .mat2{
+  position: absolute;
   height: 26vw;
   width: 29vw;
   padding-top: 5vw;
   padding-left: 2vw;
 }
 .symka{
+  position: absolute;
   height: 35vw;
   width: 25vw;
 
 }
 .ytkas{
+  position: absolute;
   height: 25vw;
   width: 28vw;
   padding-top: 5vw;
@@ -419,6 +431,7 @@ width: 100%;
 
 }
 .mask{
+  position: absolute;
   height: 30vw;
   width: 30vw;
 
