@@ -83,7 +83,7 @@ input[type="text"],
  }
  .pl {
    position: absolute;
-   width: 244VW;
+   width: 190vw;
    font-family: 'ProtoGroteskb';
    font-style: normal;
    font-weight: 700;
@@ -92,8 +92,8 @@ input[type="text"],
    color: black;
  }
  @keyframes pl-move {
-    0% {right: -15vw;}
-    100% {right: -50vw;}
+    0% {right: -1vw;}
+    100% {right: -15vw;}
   }
   .pl-move:hover {
 animation-play-state: paused;
@@ -110,7 +110,7 @@ animation-play-state: paused;
    }
    .wl {
      position: absolute;
-     width: 244VW;
+     width: 190vw;
      font-family: 'ProtoGroteskb';
      font-style: normal;
      font-weight: 700;
@@ -135,7 +135,7 @@ animation-play-state: paused;
      }
      .bl {
        position: absolute;
-       width: 244VW;
+       width: 190vw;
        font-family: 'ProtoGroteskb';
        font-style: normal;
        font-weight: 700;
@@ -195,7 +195,10 @@ animation-play-state: paused;
          }
        }
 
-
+       ::selection {
+           background: #FF029C; 
+           color: black;
+          }
   /*линии*/
 .vector{
   position: absolute;
