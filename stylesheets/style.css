@@ -107,12 +107,14 @@ a{
  -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: black;}
   .pep{
+    font-size:1.667vw;
     font-family:ProtoGroteskr;
     color: white;
 
 
   }
   .peb{
+    font-size:1.667vw;
     font-family:ProtoGroteskr;
     color: black;
     background-color: white;
