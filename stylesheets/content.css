@@ -276,20 +276,19 @@ cursor: pointer;
 .box1 {
  background-color: #FFFFFF;
  height: 32vw;
-width: 100%;
-cursor: pointer;
+ width: 100%;
+ cursor: pointer;
 }
 .box3 {
  background-color: #FFFFFF;
  height: 32vw;
-width: 100%;
-cursor: pointer;
+ width: 100%;
+ cursor: pointer;
 }
 .parent {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-template-rows: repeat(2, 1fr);
-border: 1px color black;
 grid-column-gap: 1px;
 grid-row-gap: 1px;
 }
@@ -307,7 +306,6 @@ grid-row-gap: 1px;
 .div3 {
   grid-area: 2 / 2 / 3 / 3;
   background-color: white;
-  border: 1px color black;
   height: 31.667vw;
 }
 .div4 {
