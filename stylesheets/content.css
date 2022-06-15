@@ -22,7 +22,7 @@ button:hover {
   background-color: black;
   color: #FF029C;
   border: none;
-
+  cursor: pointer;
   margin-top: 26vw;
 }
 .button2{
@@ -31,6 +31,7 @@ button:hover {
   color:black;
   border: none;
   margin-top: 26vw;
+  cursor: pointer;
 
 }
 input[type="text"],
@@ -285,6 +286,7 @@ width: 100%;
 cursor: pointer;
 }
 .parent {
+display: none;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-template-rows: repeat(2, 1fr);
