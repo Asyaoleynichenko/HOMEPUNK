@@ -80,14 +80,41 @@ a{
   h3{
     color: none;
     font-size:9.7vw ;
+    background-color: white;
     font-family:ProtoGroteskb;
     cursor: pointer;
-    line-height: 5vw;
+
     -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: #FF029C;
   }
-  .pe{
+  .h3ep{
+    color: none;
+    font-size:9.7vw ;
+    background-color: black;
+    font-family:ProtoGroteskb;
+    cursor: pointer;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FF029C;}
+
+ .h3eb{
+   color: white;
+ font-size:9.7vw ;
+ background-color: white;
+ font-family:ProtoGroteskb;
+ cursor: pointer;
+
+ -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;}
+  .pep{
     font-family:ProtoGroteskr;
     color: white;
+
+
+  }
+  .peb{
+    font-family:ProtoGroteskr;
+    color: black;
+    background-color: white;
 
   }
