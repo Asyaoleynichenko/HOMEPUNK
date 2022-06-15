@@ -196,7 +196,7 @@ animation-play-state: paused;
        }
 
        ::selection {
-           background: #FF029C; 
+           background: #FF029C;
            color: black;
           }
   /*линии*/
@@ -213,6 +213,7 @@ animation-play-state: paused;
   height: 15vw;
 
 }
+/*index*/
 .im1{
   position: absolute;
   height: 23.958vw;
@@ -280,6 +281,35 @@ width: 100%;
  height: 32vw;
 width: 100%;
 }
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 3;
+  background-color: black;
+  height: 31.667vw;
+}
+.div2 {
+  grid-area: 1 / 3 / 3 / 4;
+  background-color: white;
+  height: 63.403vw;
+}
+.div3 {
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: white;
+  height: 31.667vw;
+}
+.div4 {
+  grid-area: 2 / 1 / 3 / 2;
+  background-color: white;
+  height: 31.667vw;
+}
+/*index*/
 /*shop*/
 /* ------------*/
 
