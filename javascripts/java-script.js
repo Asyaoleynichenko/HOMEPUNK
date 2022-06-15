@@ -3,7 +3,12 @@ $( function() {
      collapsible: true
    });
  } );
- $("#head").click(function(){
-     $("#grid2").css("display", "block");
-     $("#head").css("display", "none");
- });
+ $( "select" )
+  .change(function () {
+    var str = "";
+    $( "select option:selected" ).each(function() {
+      str += $( this ).text() + " ";
+    });
+    $( "div" ).text( str );
+  })
+  .change();
