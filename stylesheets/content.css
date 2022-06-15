@@ -270,16 +270,19 @@ flex:auto;
  background-color: #FF029C;
  height: 32vw;
 width: 100%;
+cursor: pointer;
 }
 .box1 {
  background-color: #FFFFFF;
  height: 32vw;
 width: 100%;
+cursor: pointer;
 }
 .box3 {
  background-color: #FFFFFF;
  height: 32vw;
 width: 100%;
+cursor: pointer;
 }
 .parent {
 display: grid;
@@ -311,9 +314,11 @@ grid-row-gap: 0px;
 }
 .house{
   height: 60vw;
+  cursor: pointer;
 }
 .pinkarrow{
   height: 50vw;
+  cursor: pointer;
 }
 /*index*/
 /*shop*/
