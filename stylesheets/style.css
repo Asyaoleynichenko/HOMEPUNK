@@ -78,12 +78,16 @@ a{
   color: black;
   }
   h3{
-    color: white;
+    color: none;
+    font-size:9.7vw ;
     font-family:ProtoGroteskb;
     cursor: pointer;
+    line-height: 5vw;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #FF029C;
   }
   .pe{
     font-family:ProtoGroteskr;
     color: white;
-    
+
   }
