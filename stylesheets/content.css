@@ -285,13 +285,13 @@ cursor: pointer;
  width: 100%;
  cursor: pointer;
 }
-.parent {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 1px;
-grid-row-gap: 1px;
-}
+  .parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+  }
 
 .div1 {
   grid-area: 1 / 1 / 2 / 3;
