@@ -1,1 +1,5 @@
-//write here your js
+$( function() {
+   $( "#accordion" ).accordion({
+     collapsible: true
+   });
+ } );
