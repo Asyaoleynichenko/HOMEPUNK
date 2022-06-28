@@ -725,4 +725,25 @@ grid-row-gap: 0px;
   background-color: blue;
   grid-area: 3 / 2 / 4 / 3;
 }
+.parent2 {
+display: grid;
+grid-template-columns: 2fr 1fr;
+grid-template-rows:2fr 2fr;
+}
+
+.div12 {
+  grid-area: 1 / 1 / 3 / 2;
+  height: 100%;
+  background-color: blue;
+}
+.div22 {
+  grid-area: 1 / 2 / 2 / 3;
+  height: 20vw;
+  background-color: red;
+}
+.div32 {
+  grid-area: 2 / 2 / 3 / 3;
+  height: 20vw;
+  background-color: pink;
+}
 /*place*/
