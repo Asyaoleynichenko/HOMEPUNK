@@ -667,5 +667,62 @@ width: 100%;
   animation: place-move 2s linear infinite;
 
 }
+.cont1p{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  }
 
+  .box1p {
+    grid-area: 1 / 1 / 2 / 2;
+    height: 20vw;
+    background-color: pink;
+  }
+  .box2p {
+    grid-area: 2 / 1 / 3 / 2;
+        height: 100%;
+      background-color: red;
+  }
+  .box3p {
+    grid-area: 1 / 2 / 3 / 4;
+      height: 100%;
+      background-color: green;
+  }
+  .parent2 {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1p {
+  height: 20vw;
+  grid-area: 1 / 1 / 2 / 3;
+}
+.div2p {
+  height: 20vw;
+  grid-area: 1 / 3 / 2 / 4;
+}
+.div3p {
+  height: 20vw;
+  grid-area: 2 / 1 / 3 / 2;
+}
+.div4p {
+  height: 20vw;
+  grid-area: 2 / 2 / 3 / 3;
+}
+.div5p {
+  height: 20vw;
+  grid-area: 2 / 3 / 4 / 4;
+}
+.div6p {
+   grid-area: 3 / 1 / 4 / 2;
+   background-color: green;
+ }
+.div7p {
+  height: 20vw;
+  background-color: blue;
+  grid-area: 3 / 2 / 4 / 3;
+}
 /*place*/
