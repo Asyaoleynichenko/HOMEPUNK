@@ -3,6 +3,13 @@ body{
   background-color: black;
   overflow-x: hidden;
 }
+footer{
+  display: inline-flex;
+  font-family:ProtoGroteskr;
+  font-size: 1.389vw;
+  width: 100%;
+  color:white;
+}
 button{
   border: 1px solid white;
   box-sizing: border-box;
@@ -60,6 +67,7 @@ input[type="text"],
   display: flex;
   justify-content: space-between;
   padding: 1.7vw 1.7vw 1.7vw 1.7vw 1.7vw;
+  z-index: 10;
 }
 .menu-items a:hover {
   color: #FF029C;
@@ -69,11 +77,13 @@ input[type="text"],
   color: white;
   opacity: .9;
   text-decoration: none;
+  z-index: 10;
 }
 .header-title{
   height: 15vw;
   width: 100%;
   background-color: black;
+  z-index: 10;
 }
 /*линии*/
 .pinkline {
