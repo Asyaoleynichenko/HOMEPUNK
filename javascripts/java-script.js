@@ -15,6 +15,7 @@ let box8 = document.getElementById("box8")
 let box9 = document.getElementById("box9")
 let box10 = document.getElementById("box10")
 let box11 = document.getElementById("box11")
+let box12 = document.getElementById("box12")
 
 let modal_window = document.getElementById("modal-window")
 let modal_img = document.getElementById("modal-window-image")
@@ -129,6 +130,15 @@ box10.onclick = function() {
     modal_description.innerHTML = "футболка"//this.children[0].alt
 }
 box11.onclick = function() {
+
+    modal_window.style.display = "block"
+    modal_img.src = this.children[0].src
+
+    modal_price.innerHTML = "400 РУБ"
+
+    modal_description.innerHTML = "футболка"//this.children[0].alt
+}
+box12.onclick = function() {
 
     modal_window.style.display = "block"
     modal_img.src = this.children[0].src
