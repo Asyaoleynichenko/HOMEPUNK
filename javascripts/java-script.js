@@ -1,3 +1,8 @@
+$( function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  } );
 let cat = document.getElementById("cat")
 let dog = document.getElementById("dog")
 

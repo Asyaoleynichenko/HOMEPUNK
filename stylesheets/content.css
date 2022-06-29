@@ -671,6 +671,12 @@ width: 100%;
   flex-direction: column;
 }
 /* ------------*/
+/*события*/
+.news1{
+  height: 20vw;
+  padding-right: 5vw;
+}
+/*события*/
 /*place*/
 .place1{
   position: absolute;
