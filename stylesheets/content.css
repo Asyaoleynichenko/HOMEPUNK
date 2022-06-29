@@ -162,7 +162,7 @@ animation-play-state: paused;
    }
    .wl {
      position: absolute;
-     width: 100vw;
+     width: 250vw;
      font-family: 'ProtoGroteskb';
      font-style: normal;
      font-weight: 700;
@@ -173,8 +173,8 @@ animation-play-state: paused;
 
    }
    @keyframes wl-move {
-     0% {right: -1vw;}
-     100% {right: -65vw;}
+     0% {right: 9vw;}
+     100% {right: -9vw;}
     }
     .wl {
     animation: wl-move 5s linear infinite;
