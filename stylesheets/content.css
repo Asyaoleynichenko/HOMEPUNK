@@ -197,7 +197,7 @@ animation-play-state: paused;
        z-index: 5;
      }
      @keyframes bl-move {
-       0% {right: -15vw;}
+       0% {right: -6vw;}
        100% {right: -50vw;}
       }
       .bl {
