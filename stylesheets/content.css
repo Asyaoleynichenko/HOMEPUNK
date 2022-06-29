@@ -84,7 +84,7 @@ input[type="text"],
   display: flex;
   justify-content: space-between;
   padding: 1.7vw 1.7vw 1.7vw 1.7vw 1.7vw;
-  z-index: 10;
+
 }
 .menu-items a:hover {
   color: #FF029C;
@@ -94,13 +94,13 @@ input[type="text"],
   color: white;
   opacity: .9;
   text-decoration: none;
-  z-index: 10;
+
 }
 .header-title{
   height: 15vw;
   width: 100%;
   background-color: black;
-  z-index: 10;
+
 }
 /*линии*/
 .pinkline {
@@ -560,6 +560,12 @@ width: 100%;
   top: 27vw;
 
 }
+.congrats{
+  opacity: 0;
+  position: absolute;
+  top: 50vw;
+  left: 0;
+}
 
 
 /*содержимое магазина*/
@@ -876,3 +882,38 @@ grid-template-rows: repeat(2, 1fr);
    height: 32.917vw;
  }
 /*place*/
+
+.image-wrapper {
+
+}
+.image-wrapper>img {
+
+}
+.modal-image, .modal-image>img {
+
+}
+#modal-window-price{
+  font-family:
+}
+#modal-window-button {
+    display: block;
+    color: lightcoral;
+    width: 180px;
+    height: 40px;
+    background-color: whitesmoke;
+    border: solid 2px lightcoral;
+
+}
+.modal-window {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}

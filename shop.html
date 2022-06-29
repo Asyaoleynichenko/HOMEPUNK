@@ -7,9 +7,6 @@
   <title>Home Punk</title>
     <link href="./stylesheets/style.css" rel="stylesheet" type="text/css"/>
     <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
-    <script src="javascripts/java-script.js" charset="utf-8"></script>
-    <script src="modal_window.js"></script>
-    <script src="gallery.js"></script>
 </head>
   <body>
     <div class="header">
@@ -35,14 +32,14 @@
         </div>
      </div>
   <div class="cont2s">
-   <div class="box1s"><img class="tshirt"src="images/vintagetee.png"><button class="button1" type="submit" name="button">ВЫБРАТЬ</button></div>
-   <div class="box2s"><img class="tapki"src="images/tapki.png"><button class="button2" type="submit" name="button">ВЫБРАТЬ</button></div>
-   <div class="box3s"><img class="tshirt2"src="images/Black.png"><button class="button1" type="submit" name="button">ВЫБРАТЬ</button></div>
+   <div id="box1" class="box1s"><img class="tshirt"src="images/vintagetee.png"><button class="button1" type="submit" name="button">ВЫБРАТЬ</button></div>
+   <div id="box2" class="box2s"><img class="tapki"src="images/tapki.png"><button class="button2" type="submit" name="button">ВЫБРАТЬ</button></div>
+   <div id="box3" class="box3s"><img class="tshirt2"src="images/Black.png"><button class="button1" type="submit" name="button">ВЫБРАТЬ</button></div>
 </div>
 <div class="cont3s">
- <div class="box4s"><img class="socks"src="images/Socks.png"><button class="button2" type="submit" name="button">ВЫБРАТЬ</button></div>
- <div class="box5s"><img class="hoodie"src="images/Hoodie.png"><button class="button1" type="submit" name="button">ВЫБРАТЬ</button></div>
- <div class="box6s"><img class="tshirt3"src="images/vintagetee2.png"><button class="button2" type="submit" name="button">ВЫБРАТЬ</button></div>
+ <div id="box4" class="box4s"><img class="socks"src="images/Socks.png"><button class="button2" type="submit" name="button">ВЫБРАТЬ</button></div>
+ <div id="box5" class="box5s"><img class="hoodie"src="images/Hoodie.png"><button class="button1" type="submit" name="button">ВЫБРАТЬ</button></div>
+ <div id="box6" class="box6s"><img class="tshirt3"src="images/vintagetee2.png"><button class="button2" type="submit" name="button">ВЫБРАТЬ</button></div>
 </div>
 <div class="pinkline">
       <div class="pl pl-move">
@@ -50,24 +47,49 @@
       </div>
    </div>
   <div class="cont4s">
-   <div class="box7s"><img class="mat1"src="images/welcome-mat3.png"><button class="button1" type="submit" name="button">ВЫБРАТЬ</button></div>
-   <div class="box8s"><img class="books"src="images/book-cover.png"><button class="button2" type="submit" name="button">ВЫБРАТЬ</button></div>
-   <div class="box9s"><img class="mat2"src="images/welcome-mat2.png"><button class="button1" type="submit" name="button">ВЫБРАТЬ</button></div>
+   <div id="box7" class="box7s"><img class="mat1"src="images/welcome-mat3.png"><button class="button1" type="submit" name="button">ВЫБРАТЬ</button></div>
+   <div id="box8" class="box8s"><img class="books"src="images/book-cover.png"><button class="button2" type="submit" name="button">ВЫБРАТЬ</button></div>
+   <div id="box9" class="box9s"><img class="mat2"src="images/welcome-mat2.png"><button class="button1" type="submit" name="button">ВЫБРАТЬ</button></div>
   </div>
   <div class="cont5s">
-   <div class="box10s"><img class="symka"src="images/сумка.png"><button class="button2" type="submit" name="button">ВЫБРАТЬ</button></div>
-   <div class="box11s"><img class="ytkas"src="images/ytka.png"><button class="button1" type="submit" name="button">ВЫБРАТЬ</button></div>
-   <div class="box12s"><img class="mask"src="images/mask.png"><button class="button2" type="submit" name="button">ВЫБРАТЬ</button></div>
+   <div id="box9" class="box10s"><img class="symka"src="images/сумка.png"><button class="button2" type="submit" name="button">ВЫБРАТЬ</button></div>
+   <div id="box10" class="box11s"><img class="ytkas"src="images/ytka.png"><button class="button1" type="submit" name="button">ВЫБРАТЬ</button></div>
+   <div id="box11" class="box12s"><img class="mask"src="images/mask.png"><button class="button2" type="submit" name="button">ВЫБРАТЬ</button></div>
   </div>
   <div class="">
     <img class="circle"src="images/CIRCLE.png">
     <p><a href="shoppingchart.html"><img class="korzina"src="images/корзина.svg"></a></p></div>
   </div>
   <div class="pinkline">
-        <div class="pl pl-move">
+    <div class="pl pl-move">
          ПРОЧЕЕ ПРОЧЕЕ ПРОЧЕЕ ПРОЧЕЕ ПРОЧЕЕ ПРОЧЕЕ ПРОЧЕЕ ПРОЧЕЕ ПРОЧЕЕ
-        </div>
-     </div>
-
+    </div>
+  </div>
+  <!-- Модальное окно, по умолчанию скрыто -->
+  <div class="modal-window" id="modal-window">
+      <!-- Центровка карточки -->
+      <div class="centered-box">
+          <!-- Обертка карточки -->
+          <div style="background-color: white">
+              <!-- Изображение карточки, ссылка устанавливается методом onclick js -->
+              <div class="image-wrapper modal-image">
+                  <img id="modal-window-image" src="">
+              </div>
+              <!-- Информация карточки -->
+              <div class="modal-window-content">
+                  <!-- Название, задается в методе onclick js -->
+                  <p id="modal-window-description"></p>
+                  <!-- Цена, задается в методе onclick js -->
+                  <p id="modal-window-price"></p>
+                  <!-- Кнопка скрытия модального окна, поведение задается в onclick js -->
+                  <a id="modal-window-button">ДОБАВИТЬ В КОРЗИНУ</a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div id="congrats" class="congrats">
+    <img class=""src="images/good.svg">
+  </div>
   </body>
+  <script src="javascripts/java-script.js" charset="utf-8"></script>
 </html>
