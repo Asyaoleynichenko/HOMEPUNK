@@ -36,6 +36,7 @@ button:hover {
 }
 .button1:hover {
   opacity: 1;
+
 }
 .button2{
 
@@ -49,6 +50,7 @@ button:hover {
 }
 .button2:hover {
   opacity: 1;
+  color:black;
 }
 input[type="text"],
    input[type="email"],
