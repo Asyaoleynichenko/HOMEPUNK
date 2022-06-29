@@ -19,7 +19,26 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   /* iPhone Portrait */
-  .header{
+  .error{
+    position: absolute;
+    width: 102.308vw;
+    height: 77.692vw;
+    left: 2.308vw;
+    top: 64.872vw;
+  }
+  .errortext{
+    position: absolute;
+    width: 151.026vw;
+    height: 38.205vw;
+    left: 24.587vw;
+    top: 128.718vw;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.615vw;
+    line-height: 5.641vw;
+
+
+  }
 
   }
 }
