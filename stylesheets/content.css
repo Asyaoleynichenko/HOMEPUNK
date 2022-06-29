@@ -474,6 +474,7 @@ width: 100%;
 }
 .socks{
   position: absolute;
+  top:1px;
   height: 38vw;
   width: 30vw;
   cursor: pointer;
