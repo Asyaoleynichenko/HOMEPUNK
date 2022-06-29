@@ -135,7 +135,7 @@ input[type="text"],
  }
  .pl {
    position: absolute;
-   width: 250vw;
+   width: 100vw;
    font-family: 'ProtoGroteskb';
    font-style: normal;
    font-weight: 700;
@@ -162,13 +162,14 @@ animation-play-state: paused;
    }
    .wl {
      position: absolute;
-     width: 250vw;
+     width: 100vw;
      font-family: 'ProtoGroteskb';
      font-style: normal;
      font-weight: 700;
      font-size: 6.95vw;
      line-height: 5vw;
      color: black;
+
 
    }
    @keyframes wl-move {
@@ -187,7 +188,7 @@ animation-play-state: paused;
      }
      .bl {
        position: absolute;
-       width: 190vw;
+       width: 100vw;
        font-family: 'ProtoGroteskb';
        font-style: normal;
        font-weight: 700;
@@ -987,4 +988,4 @@ grid-template-rows: repeat(2, 1fr);
   background-color:black;
   background-color: black;
   border: solid 2px white;
-}
+}//
