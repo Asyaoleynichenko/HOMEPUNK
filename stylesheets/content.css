@@ -121,11 +121,11 @@ animation-play-state: paused;
      z-index: 6;
    }
    @keyframes wl-move {
-     0% {right: -15vw;}
-     100% {right: -50vw;}
+     0% {right: -1vw;}
+     100% {right: -65vw;}
     }
     .wl {
-    animation: wl-move 7s linear infinite reverse;
+    animation: wl-move 5s linear infinite;
     }
     .blackline {
        position: static;
@@ -642,7 +642,7 @@ width: 100%;
   width: 30vw;
   left: 53.889vw;
   top: 40vw;
-  animation: place-move 6s linear infinite;
+  animation: place-move 2s linear infinite;
 
 }
 @keyframes place-move {
@@ -655,7 +655,7 @@ width: 100%;
   width: 30vw;
   left: 15vw;
   top: 23vw;
-  animation: place-move 4s linear infinite;
+  animation: place-move 14s linear infinite;
 
 }
 .place3{
@@ -664,7 +664,7 @@ width: 100%;
   width: 30vw;
   left: -4.236vw;
   top: 25vw;
-  animation: place-move 8s linear infinite;
+  animation: place-move 9s linear infinite;
 
 }
 .cont1p{
