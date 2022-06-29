@@ -8,6 +8,8 @@
     <link href="./stylesheets/style.css" rel="stylesheet" type="text/css"/>
     <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
     <script src="javascripts/java-script.js" charset="utf-8"></script>
+    <script src="modal_window.js"></script>
+    <script src="gallery.js"></script>
 </head>
   <body>
     <div class="header">
@@ -38,7 +40,33 @@
    <div class="box3s"><img class="tshirt2"src="images/Black.png"><button class="button1" type="submit" name="button">ВЫБРАТЬ</button></div>
 </div>
 <div class="cont3s">
- <div class="box4s"><img class="socks"src="images/Socks.png"><button class="button2" type="submit" name="button">ВЫБРАТЬ</button></div>
+ <div class="box4s"><div id="cat" class="image-wrapper">
+
+            <img src="tapki.png" alt="">
+            <div class="modal-window" id="modal-window" style="display: none;">
+        <!-- Центровка карточки -->
+        <div class="centered-box">
+            <!-- Обертка карточки -->
+            <div style="background-color: white">
+                <!-- Изображение карточки, ссылка устанавливается методом onclick js -->
+                <div class="image-wrapper modal-image">
+                    <img id="modal-window-image" src="file:///Users/asyaoleynichenko/Downloads/somejs/tapki.png">
+                </div>
+                <!-- Информация карточки -->
+                <div class="modal-window-content">
+                    <p>Розовые домашние тапки для фанатов HOME PUNK</p>
+                    <p id="modal-window-description"></p>
+                    <p>400 РУБ</p>
+                    <p id="modal-window-price"></p>
+
+                    <a id="modal-window-button">ДОБАВИТЬ В КОРЗИНУ</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+        </div>
+   <img class="socks"src="images/Socks.png"><button class="button2" type="submit" name="button">ВЫБРАТЬ</button></div>
  <div class="box5s"><img class="hoodie"src="images/Hoodie.png"><button class="button1" type="submit" name="button">ВЫБРАТЬ</button></div>
  <div class="box6s"><img class="tshirt3"src="images/vintagetee2.png"><button class="button2" type="submit" name="button">ВЫБРАТЬ</button></div>
 </div>
@@ -66,5 +94,10 @@
          ПРОЧЕЕ ПРОЧЕЕ ПРОЧЕЕ ПРОЧЕЕ ПРОЧЕЕ ПРОЧЕЕ ПРОЧЕЕ ПРОЧЕЕ ПРОЧЕЕ
         </div>
      </div>
+
+             </div>
+         </div>
+     </div>
+
   </body>
 </html>

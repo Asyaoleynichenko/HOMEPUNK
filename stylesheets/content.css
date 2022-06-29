@@ -27,8 +27,11 @@ button:hover {
   color: #FF029C;
 }
 .button1{
+  position: absolute;
   background-color: black;
   color: #FF029C;
+  left: 0;
+  top: 0;
   border: none;
   cursor: pointer;
   opacity: 0;
@@ -39,10 +42,12 @@ button:hover {
 
 }
 .button2{
-
+  position: absolute;
   background-color: #FF029C;
   color:black;
   border: none;
+  left: 0;
+  top: 0;
   margin-top: 26vw;
   cursor: pointer;
   opacity: 0;
@@ -354,76 +359,91 @@ cursor: pointer;
  height: 32vw;
 }
 .box1s {
- background-color: #FFFFFF;
- height: 32vw;
-width: 100%;
+  position: relative;
+  background-color: #FFFFFF;
+  height: 32vw;
+  width: 100%;
 }
 .box2s {
+  position: relative;
  background-color: black;
  height: 32vw;
-width: 100%;
+ width: 100%;
 }
 .box3s {
+  position: relative;
  background-color: #FFFFFF;
  height: 32vw;
 width: 100%;
 }
 .cont3s {
+  position: relative;
 justify-content: center;
  display: flex;
  width: 100%;
 }
 .box4s {
+  position: relative;
  background-color: black;
  height: 32vw;
 width: 100%;
 }
 .box5s {
+  position: relative;
  background-color: #FFFFFF;
  height: 32vw;
 width: 100%;
 }
 .box6s {
+  position: relative;
  background-color:black;
  height: 32vw;
 width: 100%;
 }
 .cont4s {
+  position: relative;
  display: flex;
  width: 100%;
 }
 .box7s {
+  position: relative;
  background-color: #FFFFFF;
  height: 32vw;
 width: 100%;
 }
 .box8s {
+  position: relative;
  background-color: black;
  height: 32vw;
 width: 100%;
 }
 .box9s {
+  position: relative;
  background-color:#FFFFFF;
  height: 32vw;
 width: 100%;
 }
 .cont5s {
+  position: relative;
   justify-content: center;
  display: flex;
  width: 100%;
 
 }
 .box10s {
+  position: relative;
  background-color: black;
  height: 32vw;
 width: 100%;
 }
 .box11s {
+  position: relative;
  background-color: #FFFFFF;
  height: 32vw;
 width: 100%;
 }
 .box12s {
+  position: relative;
  background-color:black;
  height: 32vw;
 width: 100%;
@@ -433,7 +453,8 @@ width: 100%;
   position: absolute;
   height: 35vw;
   width: 32vw;
-  padding-top: 2vw;
+  top: 0;
+  left:0;
   cursor: pointer;
 
 }
