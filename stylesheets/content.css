@@ -78,13 +78,13 @@ input[type="text"],
 /*линии*/
 .pinkline {
    position: static;
-   width: 100%;
+   width: 250vw;
    height: 5.417vw;
    background: #FF029C;
  }
  .pl {
    position: absolute;
-   width: 190vw;
+   width: 250vw;
    font-family: 'ProtoGroteskb';
    font-style: normal;
    font-weight: 700;
@@ -93,8 +93,8 @@ input[type="text"],
    color: black;
  }
  @keyframes pl-move {
-    0% {right: -1vw;}
-    100% {right: -15vw;}
+    0% {right: 100vw;}
+    100% {right: -150vw;}
   }
   .pl-move:hover {
 animation-play-state: paused;
@@ -104,14 +104,14 @@ animation-play-state: paused;
   }
   .whiteline {
      position: static;
-     width: 100%;
+     width: 250vw;
      height: 5vw;
      background: white;
     z-index: 6;
    }
    .wl {
      position: absolute;
-     width: 190vw;
+     width: 250vw;
      font-family: 'ProtoGroteskb';
      font-style: normal;
      font-weight: 700;
@@ -129,7 +129,7 @@ animation-play-state: paused;
     }
     .blackline {
        position: static;
-       width: 100%;
+       width: 250vw;
        height: 5.417vw;
        background: black;
        z-index: 5;
