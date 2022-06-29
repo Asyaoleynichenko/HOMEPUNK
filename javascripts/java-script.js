@@ -1,3 +1,4 @@
+
 $(function() {
 $('.marquee').marquee({
 duration: 10000,
@@ -153,4 +154,25 @@ box12.onclick = function() {
     modal_price.innerHTML = "400 РУБ"
 
     modal_description.innerHTML = "футболка"//this.children[0].alt
+}
+let card = document.getElementById("card")
+let hidden = 0
+
+
+
+document.addEventListener('click', function (e) {
+    let target = e.target;
+    let its = target === card || card.contains(target);
+    if(!its && !hidden){
+        card.style.display = "none"
+        hidden = 1
+    }
+    else {
+        if(card.style.display === "flex"){
+            hidden = 0
+        }
+    }
+});
+cat.onclick = function () {
+    card.style.display = "flex"
 }

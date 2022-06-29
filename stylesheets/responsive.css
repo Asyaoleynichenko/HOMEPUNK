@@ -36,11 +36,28 @@
     font-weight: 700;
     font-size: 4.615vw;
     line-height: 5.641vw;
+    .menu-items  {
+      display: flex;
+      justify-content: space-between;
+      padding: 1.7vw 1.7vw 1.7vw 1.7vw 1.7vw;
+
+    }
+    }
+    .menu-items a {
+      display: none;
+
+    }
+    .vector{
+      display: none;
+    }
+    .b2{
+      width: 344px;
+      height: 194px;
+      left: 46px;
+      top: 150px;
+    }
 
 
-  }
-
-  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
