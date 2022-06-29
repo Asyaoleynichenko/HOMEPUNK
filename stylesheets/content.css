@@ -877,7 +877,13 @@ grid-template-columns: repeat(3, 1fr);
 grid-template-rows: repeat(2, 1fr);
 
 }
-
+.opb{
+  position: absolute;
+  width: 106.014vw;
+  height: 100.528vw;
+  left: 0;
+  top: 447.8vw;
+}
 .div13 {
   grid-area: 1 / 1 / 2 / 2;
   height: 32.917vw;
