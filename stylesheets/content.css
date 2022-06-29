@@ -336,6 +336,9 @@ cursor: pointer;
  width: 100%;
  cursor: pointer;
 }
+.gif2{
+  width: 33.403vw;
+}
   .parent {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
