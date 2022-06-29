@@ -93,8 +93,8 @@ input[type="text"],
    color: black;
  }
  @keyframes pl-move {
-    0% {right: 100vw;}
-    100% {right: -150vw;}
+    0% {right: -5vw;}
+    100% {right: -140vw;}
   }
   .pl-move:hover {
 animation-play-state: paused;
