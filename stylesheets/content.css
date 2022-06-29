@@ -30,7 +30,11 @@ button:hover {
   color: #FF029C;
   border: none;
   cursor: pointer;
+  opacity: 0;
   margin-top: 26vw;
+}
+.button1:hover {
+  opacity: 1;
 }
 .button2{
 
@@ -39,7 +43,11 @@ button:hover {
   border: none;
   margin-top: 26vw;
   cursor: pointer;
+  opacity: 0;
 
+}
+.button2:hover {
+  opacity: 1;
 }
 input[type="text"],
    input[type="email"],
