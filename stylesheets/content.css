@@ -52,6 +52,7 @@ button:hover {
   opacity: 1;
   color:black;
 }
+
 input[type="text"],
    input[type="email"],
    select {
@@ -433,6 +434,7 @@ width: 100%;
   height: 35vw;
   width: 32vw;
   padding-top: 2vw;
+  cursor: pointer;
 
 }
 .tapki{
@@ -440,17 +442,20 @@ width: 100%;
   height: 25.625vw;
   width: 32.639vw;
   padding-top:4vw;
+  cursor: pointer;
 }
 .tshirt2{
   position: absolute;
   height: 28vw;
   width: 28vw;
   padding-top:5vw;
+  cursor: pointer;
 }
 .socks{
   position: absolute;
   height: 38vw;
   width: 30vw;
+  cursor: pointer;
 
 
 }
@@ -458,12 +463,14 @@ width: 100%;
   position: absolute;
   height: 33vw;
   width: 33vw;
+  cursor: pointer;
 
 }
 .tshirt3{
   position: absolute;
   height: 35vw;
   width: 32vw;
+  cursor: pointer;
 
 }
 .mat1{
@@ -471,6 +478,7 @@ width: 100%;
   height: 24vw;
   width: 29vw;
   padding-top: 5vw;
+  cursor: pointer;
 
 }
 .books{
@@ -479,6 +487,7 @@ width: 100%;
   width: 18vw;
   padding-top: 3vw;
   padding-left: 7vw;
+  cursor: pointer;
 
 }
 .mat2{
@@ -487,11 +496,13 @@ width: 100%;
   width: 29vw;
   padding-top: 5vw;
   padding-left: 2vw;
+  cursor: pointer;
 }
 .symka{
   position: absolute;
   height: 35vw;
   width: 25vw;
+  cursor: pointer;
 
 }
 .ytkas{
@@ -500,12 +511,14 @@ width: 100%;
   width: 28vw;
   padding-top: 5vw;
   padding-left: 3vw;
+  cursor: pointer;
 
 }
 .mask{
   position: absolute;
   height: 30vw;
   width: 30vw;
+  cursor: pointer;
 
 }
 .korzina{
@@ -514,6 +527,7 @@ width: 100%;
   width: 8vw;
   right: 1vw;
   top: 30vw;
+  cursor: pointer;
 
 }
 .circle{
