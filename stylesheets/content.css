@@ -144,15 +144,8 @@ input[type="text"],
    color: black;
  }
  @keyframes pl-move {
-   0% {
-   left: 0;
- }
- 50% {
-   left: 100%;
- }
- 100% {
-   left: 0;
- }
+   0% {left: -870px;}
+ 100% {left: 360px;}
   }
   .pl-move:hover {
 animation-play-state: paused;
@@ -206,12 +199,8 @@ animation-play-state: paused;
        z-index: 5;
      }
      @keyframes bl-move {
-       0% {
-    left: 58px;
-  }
-  100% {
-    left: 10px;
-  }
+       0% {right: -870px;}
+     100% {right: 360px;}
 
       }
       .bl {
