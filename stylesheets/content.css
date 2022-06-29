@@ -144,8 +144,15 @@ input[type="text"],
    color: black;
  }
  @keyframes pl-move {
-    0% {right: -5vw;}
-    100% {right: -140vw;}
+   0% {
+   left: 0;
+ }
+ 50% {
+   left: 100%;
+ }
+ 100% {
+   left: 0;
+ }
   }
   .pl-move:hover {
 animation-play-state: paused;
@@ -173,8 +180,8 @@ animation-play-state: paused;
 
    }
    @keyframes wl-move {
-     0% {right: 9vw;}
-     100% {right: -9vw;}
+     0% {right: -870px;}
+   100% {right: 360px;}
     }
     .wl {
     animation: wl-move 5s linear infinite;
@@ -186,12 +193,10 @@ animation-play-state: paused;
        background: black;
 
      }
-     .span{
-       width: 500vw;
-     }
+
      .bl {
        position: absolute;
-       width: 100vw;
+       width: 200vw;
        font-family: 'ProtoGroteskb';
        font-style: normal;
        font-weight: 700;
@@ -201,8 +206,13 @@ animation-play-state: paused;
        z-index: 5;
      }
      @keyframes bl-move {
-       0% {right: -6vw;}
-       100% {right: -50vw;}
+       0% {
+    left: 58px;
+  }
+  100% {
+    left: 10px;
+  }
+
       }
       .bl {
       animation: bl-move 7s linear infinite reverse;
