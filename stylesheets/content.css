@@ -928,7 +928,7 @@ grid-template-rows: repeat(2, 1fr);
   border: solid 2px white;
   width: 47.639vw;
   height: 42.431vw;
-  left: 50vw;
+  padding-left: 50vw;
 }
 .modal-window {
     display: none;
