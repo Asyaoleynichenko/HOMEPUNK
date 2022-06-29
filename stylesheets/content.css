@@ -186,6 +186,9 @@ animation-play-state: paused;
        background: black;
 
      }
+     .span{
+       width: 500vw;
+     }
      .bl {
        position: absolute;
        width: 100vw;
