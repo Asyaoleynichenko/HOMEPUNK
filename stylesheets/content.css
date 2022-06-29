@@ -458,6 +458,13 @@ width: 100%;
   cursor: pointer;
 
 }
+.tshirt11{
+  position: absolute;
+  height: 35vw;
+  width: 32vw;
+  top: 30vw;
+  left:0;
+}
 .tapki{
   position: absolute;
   height: 25.625vw;
@@ -896,14 +903,14 @@ grid-template-rows: repeat(2, 1fr);
   font-family:ProtoGroteskb;
   color:#FF029C;
   border: solid 2px white;
-  width: 180px;
-  height: 40px;
+  width: 23.819vw;
+  height: 7.222vw;
 }
 #modal-window-button {
     display: block;
     color: white;
-    width: 180px;
-    height: 40px;
+    width: 23.819vw;
+    height: 7.222vw;
     background-color: black;
     border: solid 2px white;
 
@@ -912,8 +919,9 @@ grid-template-rows: repeat(2, 1fr);
   font-family:ProtoGroteskb;
   color:#FF029C;
   border: solid 2px white;
-  width: 180px;
-  height: 40px;
+  width: 47.639vw;
+  height: 42.431vw;
+  left: 50vw;
 }
 .modal-window {
     display: none;
