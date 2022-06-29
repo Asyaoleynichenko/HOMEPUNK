@@ -11,6 +11,7 @@ footer{
   color:white;
 }
 button{
+
   border: 1px solid white;
   box-sizing: border-box;
   height: 6.250vw;
@@ -96,7 +97,7 @@ input[type="text"],
 /*линии*/
 .pinkline {
    position: static;
-   width: 250vw;
+   width: 100vw;
    height: 5.417vw;
    background: #FF029C;
  }
@@ -122,10 +123,10 @@ animation-play-state: paused;
   }
   .whiteline {
      position: static;
-     width: 250vw;
+     width: 100vw;
      height: 5vw;
      background: white;
-    z-index: 6;
+
    }
    .wl {
      position: absolute;
@@ -136,7 +137,7 @@ animation-play-state: paused;
      font-size: 6.95vw;
      line-height: 5vw;
      color: black;
-     z-index: 6;
+
    }
    @keyframes wl-move {
      0% {right: -1vw;}
@@ -147,10 +148,10 @@ animation-play-state: paused;
     }
     .blackline {
        position: static;
-       width: 250vw;
+       width: 100vw;
        height: 5.417vw;
        background: black;
-       z-index: 5;
+
      }
      .bl {
        position: absolute;
@@ -448,6 +449,7 @@ width: 100%;
   position: absolute;
   height: 38vw;
   width: 30vw;
+
 
 }
 .hoodie{
