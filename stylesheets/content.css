@@ -60,7 +60,29 @@ button:hover {
   opacity: 1;
   color:black;
 }
+.error{
+  position: absolute;
+  width: 100%;
+  height: 61.875vw;
+  left: 2.778vw;
+  top: 1.250vw;
+}
+.errortext{
+  font-family:ProtoGroteskb;
+  position: absolute;
+  width: 40.960vw;
+  height: 10.347vw;
+  left: 35.687vw;
+  top: 731px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
 
+  color: #FFFFFF;
+
+
+}
 input[type="text"],
    input[type="email"],
    select {
