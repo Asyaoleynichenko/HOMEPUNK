@@ -642,11 +642,11 @@ width: 100%;
   width: 30vw;
   left: 53.889vw;
   top: 40vw;
-  animation: place-move 3s linear infinite;
+  animation: place-move 6s linear infinite;
 
 }
 @keyframes place-move {
-   0% {left: -1vw;}
+   0% {left: 100vw;}
    100% {left: -50vw;}
    }
 .place2{
@@ -664,7 +664,7 @@ width: 100%;
   width: 30vw;
   left: -4.236vw;
   top: 25vw;
-  animation: place-move 2s linear infinite;
+  animation: place-move 8s linear infinite;
 
 }
 .cont1p{
