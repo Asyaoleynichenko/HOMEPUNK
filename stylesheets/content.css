@@ -682,7 +682,7 @@ width: 100%;
 }
 .news3{
   height: 20vw;
-  padding-right: 5vw;
+  margin-right:5vw;
 }
 .news4{
   height: 20vw;
@@ -695,8 +695,8 @@ width: 100%;
 /*place*/
 .place1{
   position: absolute;
-  height: 30vw;
-  width: 30vw;
+  height: 33.056vw;
+  width: 50.625vw;
   left: 53.889vw;
   top: 40vw;
   animation: place-move 2s linear infinite;
@@ -708,8 +708,8 @@ width: 100%;
    }
 .place2{
   position: absolute;
-  height: 30vw;
-  width: 30vw;
+  height: 40.556vw;
+  width: 43.889vw;
   left: 15vw;
   top: 23vw;
   animation: place-move 14s linear infinite;
@@ -717,8 +717,8 @@ width: 100%;
 }
 .place3{
   position: absolute;
-  height: 30vw;
-  width: 30vw;
+  height: 32.986vw;
+  width: 43.889vw;
   left: -4.236vw;
   top: 25vw;
   animation: place-move 9s linear infinite;
