@@ -115,6 +115,7 @@ input[type="text"],
   justify-content: space-between;
   padding: 1.7vw 1.7vw 1.7vw 1.7vw 1.7vw;
 
+
 }
 .menu-items a:hover {
   color: #FF029C;
@@ -125,11 +126,13 @@ input[type="text"],
   opacity: .9;
   text-decoration: none;
 
+
 }
 .header-title{
   height: 15vw;
   width: 100%;
   background-color: black;
+
 
 }
 /*линии*/
@@ -181,11 +184,12 @@ animation-play-state: paused;
      color: black;
      overflow: hidden;
      white-space: nowrap;
+     z-index: 5;
 
 
    }
    @keyframes wl-move {
-     from { text-indent: 100%}
+     from { text-indent: -50%}
      to { text-indent: -100%}
     }
     .wl {
@@ -197,6 +201,7 @@ animation-play-state: paused;
        background: black;
        overflow: hidden;
        white-space: nowrap;
+       z-index: 4;
 
      }
 
@@ -209,9 +214,10 @@ animation-play-state: paused;
        color: white;
        overflow: hidden;
        white-space: nowrap;
+       z-index: 5;
      }
      @keyframes bl-move {
-       from { text-indent: 100%}
+       from { text-indent: -60%}
        to { text-indent: -100%}
 
       }
@@ -222,41 +228,29 @@ animation-play-state: paused;
          width: 6%;
          height: 5.417vw;
          background: black;
-         z-index: 1;
+         z-index: 0;
          transform: rotate(-90deg);
+
        }
        .blV {
+
          position: absolute;
          font-family: 'ProtoGroteskb';
          font-size: 6.95vw;
          line-height: 5.5vw;
          color: white;
-        z-index: 1;
+         z-index: 0;
+
+
 
        }
        .blV {
-       	-webkit-animation: blV-move 4s linear infinite both;
-       	        animation: blV-move 4s linear infinite both;
+       	-webkit-animation: blV-move 2s linear infinite both;
+
        }
        @-webkit-keyframes blV-move {
-         0% {
-           -webkit-transform: translateX(-150px);
-                   transform: translateX(-150px);
-         }
-         100% {
-           -webkit-transform: translateX(0px);
-                   transform: translateX(0px);
-         }
-       }
-       @keyframes blV-move {
-         0% {
-           -webkit-transform: translateX(-200px);
-                   transform: translateX(-200px);
-         }
-         100% {
-           -webkit-transform: translateX(-150px);
-                   transform: translateX(-270px);
-         }
+         from { text-indent: -80%}
+         to { text-indent: -90%}
        }
 
        ::selection {
