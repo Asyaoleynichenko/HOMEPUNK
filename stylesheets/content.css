@@ -30,6 +30,11 @@ button{
 button:hover {
   color: #FF029C;
 }
+.footer{
+  padding-top: 10vw;
+  width: 100vw;
+  height: 17.292vw;
+}
 .button1{
   position: absolute;
   background-color: black;
