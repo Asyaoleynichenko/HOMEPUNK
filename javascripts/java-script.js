@@ -1,4 +1,6 @@
-
+$( function() {
+    $( "#draggable" ).draggable();
+  } );
 $(function() {
 $('.marquee').marquee({
 duration: 10000,
