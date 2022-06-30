@@ -942,6 +942,9 @@ grid-template-rows: repeat(2, 1fr);
    height: 33vw;
    weight:40vw;
  }
+ .pool{
+   height: 33vw;
+ }
  .yellow{
    height: 65.834vw;
  }
