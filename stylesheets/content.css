@@ -832,9 +832,10 @@ grid-template-rows: repeat(3, 1fr);
 }
 
 .div1p {
-  height: 32.917vw;
+  height: 32.9vw;
   grid-area: 1 / 1 / 2 / 3;
   border: 1px double white;
+  background-color: black;
 }
 .div2p {
   height: 32.917vw;
@@ -937,7 +938,9 @@ grid-template-rows: repeat(2, 1fr);
    height:65.764vw;
  }
  .blue{
-   height: 32.917vw;
+   padding-left: 1vw;
+   height: 33vw;
+   weight:40vw;
  }
  .yellow{
    height: 65.834vw;
