@@ -780,7 +780,7 @@ width: 45vw;
   top: 40vw;
   overflow: hidden;
   white-space: nowrap;
-  animation: place-move 2s linear infinite;
+  animation: place-move 9s linear infinite;
 
 }
 @keyframes place-move {
@@ -792,7 +792,7 @@ width: 45vw;
   height: 40.556vw;
   width: 43.889vw;
   left: 15vw;
-  top: 23vw;
+  top: 30vw;
   overflow: hidden;
   white-space: nowrap;
   animation: place-move 14s linear infinite;
