@@ -893,6 +893,7 @@ grid-template-rows:2fr 2fr;
   grid-area: 2 / 2 / 3 / 3;
   height: 32.917vw;
   border: 1px double white;
+  align-items: flex-start;
 
 }
 .cont3p {

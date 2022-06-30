@@ -110,6 +110,7 @@ a{
 -webkit-text-stroke-color: black;}
   .pep{
     width: 80vw;
+    align:left;
     font-size:2vw;
     font-family:ProtoGroteskr;
     color: white;
@@ -130,7 +131,8 @@ a{
     }
   .pp{
     font-family:ProtoGroteskl;
-    width: 32vw;
+    align:justify;
+    width: 30vw;
     font-size:1.9vw;
     color: white;
 
