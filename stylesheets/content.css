@@ -951,8 +951,9 @@ grid-template-rows: repeat(2, 1fr);
 }
 .im1cp{
   border: solid 2px white;
-  width: 36vw;
+  width: 33vw;
   height: 53vw;
+  padding-right: 4vw;
 
 }
 .text1cp{
