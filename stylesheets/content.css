@@ -939,6 +939,11 @@ grid-template-rows: repeat(2, 1fr);
  .shoes{
    height: 32.917vw;
  }
+ .ytkap{
+   position: absolute;
+   width: 42.014vw;
+   height: 33.472vw;
+ }
 /*ТУТ ФУТБОЛКА (ЖУРНАЛ)*/
 .cartpage11{
   margin: 10vw 10vw 10vw 10vw;
