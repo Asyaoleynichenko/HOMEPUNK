@@ -876,6 +876,11 @@ grid-template-rows:2fr 2fr;
   height: 100%;
   border: 1px double white;
 }
+.band{
+  top: 307.4vw;
+  position: absolute;
+  height: 85.792vw;
+}
 .div22 {
   grid-area: 1 / 2 / 2 / 3;
   height: 32.917vw;
