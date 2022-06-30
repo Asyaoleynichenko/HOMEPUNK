@@ -89,7 +89,8 @@ a{
   }
   .h3ep{
     color: none;
-    font-size:9.7vw ;
+    font-size:10vw  ;
+    line-height: 7.5vw;
     background-color: black;
     font-family:ProtoGroteskb;
     cursor: pointer;
@@ -99,7 +100,8 @@ a{
 
  .h3eb{
    color: white;
- font-size:9.7vw ;
+ font-size:10vw ;
+ line-height: 7.5vw;
  background-color: white;
  font-family:ProtoGroteskb;
  cursor: pointer;
@@ -108,14 +110,14 @@ a{
 -webkit-text-stroke-color: black;}
   .pep{
     width: 80vw;
-    font-size:1.667vw;
+    font-size:2vw;
     font-family:ProtoGroteskr;
     color: white;
 
 
   }
   .peb{
-    font-size:1.667vw;
+    font-size:2vw;
     font-family:ProtoGroteskr;
     color: black;
     background-color: white;
