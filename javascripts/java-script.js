@@ -176,3 +176,24 @@ document.addEventListener('click', function (e) {
 cat.onclick = function () {
     card.style.display = "flex"
 }
+let newspapers = document.getElementById("newspaper-holder").getElementsByClassName("paper")
+
+let first = document.getElementById("fb")
+let second = document.getElementById("sb")
+let third = document.getElementById("tb")
+
+first.onclick = function () {
+    newspapers[0].style.display = "block"
+    newspapers[1].style.display = "none"
+    newspapers[2].style.display = "none"
+}
+second.onclick = function () {
+    newspapers[1].style.display = "block"
+    newspapers[0].style.display = "none"
+    newspapers[2].style.display = "none"
+}
+third.onclick = function () {
+    newspapers[2].style.display = "block"
+    newspapers[0].style.display = "none"
+    newspapers[1].style.display = "none"
+}

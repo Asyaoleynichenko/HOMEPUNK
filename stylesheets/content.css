@@ -129,86 +129,91 @@ input[type="text"],
 }
 /*линии*/
 .pinkline {
-   position: static;
    width: 100vw;
    height: 5.417vw;
    background: #FF029C;
+   overflow: hidden;
+   white-space: nowrap;
  }
  .pl {
    position: absolute;
    width: 100vw;
    font-family: 'ProtoGroteskb';
    font-style: normal;
-   font-weight: 700;
    font-size: 6.95vw;
    line-height: 5.5vw;
    color: black;
+   overflow: hidden;
+   white-space: nowrap;
  }
  @keyframes pl-move {
-   0% {left: -870px;}
- 100% {left: 360px;}
+   from { text-indent: -100%}
+   to { text-indent: 100%}
   }
   .pl-move:hover {
 animation-play-state: paused;
 }
   .pl {
   animation: pl-move 7s linear infinite;
+  overflow: hidden;
+  white-space: nowrap;
   }
   .whiteline {
-     position: static;
      width: 100vw;
      height: 5vw;
      background: white;
+     overflow: hidden;
+     white-space: nowrap;
 
    }
    .wl {
      position: absolute;
-     width: 250vw;
+     width: 100vw;
      font-family: 'ProtoGroteskb';
      font-style: normal;
-     font-weight: 700;
      font-size: 6.95vw;
      line-height: 5vw;
      color: black;
+     overflow: hidden;
+     white-space: nowrap;
 
 
    }
    @keyframes wl-move {
-     0% {right: -870px;}
-   100% {right: 360px;}
+     from { text-indent: 100%}
+     to { text-indent: -100%}
     }
     .wl {
     animation: wl-move 5s linear infinite;
     }
     .blackline {
-       position: static;
        width: 100vw;
        height: 5.417vw;
        background: black;
+       overflow: hidden;
+       white-space: nowrap;
 
      }
 
      .bl {
        position: absolute;
-       width: 200vw;
+       width: 100vw;
        font-family: 'ProtoGroteskb';
-       font-style: normal;
-       font-weight: 700;
        font-size: 6.95vw;
        line-height: 5.5vw;
        color: white;
-       z-index: 5;
+       overflow: hidden;
+       white-space: nowrap;
      }
      @keyframes bl-move {
-       0% {right: -870px;}
-     100% {right: 360px;}
+       from { text-indent: 100%}
+       to { text-indent: -100%}
 
       }
       .bl {
       animation: bl-move 7s linear infinite reverse;
       }
       .blacklineV{
-         position: static;
          width: 6%;
          height: 5.417vw;
          background: black;
@@ -218,8 +223,6 @@ animation-play-state: paused;
        .blV {
          position: absolute;
          font-family: 'ProtoGroteskb';
-         font-style: normal;
-         font-weight: 700;
          font-size: 6.95vw;
          line-height: 5.5vw;
          color: white;
@@ -930,65 +933,117 @@ grid-template-rows: repeat(2, 1fr);
  .shoes{
    height: 32.917vw;
  }
-/*place*/
-
-.image-wrapper {
-
+/*ТУТ ФУТБОЛКА (ЖУРНАЛ)*/
+.cartpage11{
+  margin: 10vw 10vw 10vw 10vw;
+  display: flex;
 }
-.image-wrapper>img {
-
-}
-.modal-image, .modal-image>img {
-
-}
-#modal-window-price{
-  font-family:ProtoGroteskb;
-  color:#FF029C;
+.im1cp{
   border: solid 2px white;
-  width: 23.819vw;
-  height: 7.222vw;
+  width: 32vw;
+  height: 53vw;
+
 }
-#modal-window-button {
-    display: block;
+.text1cp{
+  border: solid 2px white;
+  height: 53vw;
+  width: 48vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cpbox{
+  display: flex;
+}
+
+.cpbox1{
+  height: 7.2vw;
+  width: 23.8vw;
+  border: solid 2px white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cpbox2{
+  height: 7.2vw;
+  width: 23.8vw;
+  border: solid 2px white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cpbox3{
+  height: 7.2vw;
+  width: 23.8vw;
+  border-bottom: solid 2px black;
+  border-top: solid 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.cpbox4{
+  height: 7.2vw;
+  width: 23.8vw;
+  border: solid 2px white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p11{
+  font-family: 'ProtoGroteskb';
+  font-size: 4.4vw;
+  color: white;
+}
+
+ p22{
+  font-family: 'ProtoGroteskb';
+  font-size: 2.4vw;
+  font-style: normal;
+  color: white;
+  line-height: 4vw;
+}
+
+p33{
+  font-family: 'ProtoGroteskb';
+  font-size: 4.4vw;
+  color: #FF029C;
+}
+p44{
+    font-family: 'ProtoGroteskb';
+    font-size: 1.6vw;
     color: white;
-    width: 23.819vw;
-    height: 7.222vw;
-    background-color: black;
-    border: solid 2px white;
+  }
 
+.korzinaa{
+  height: 5.8vw;
 }
-#modal-window-description{
-  font-family:ProtoGroteskb;
-  color:#FF029C;
-  border: solid 2px white;
-  width: 47.639vw;
-  height: 42.431vw;
-  padding-left: 50vw;
-}
-.modal-window {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 93.333vw;
-    height: 63.125vw;
-    overflow: auto;
-}
-.modal-window-content{
-  width: 93.333vw;
-  background-color:black;
-  border: solid 2px white;
 
+.oblozzka{
+  width: 32vw;
+  height: 53vw;
 }
-.modal-window-image{
-  padding-left: 0;
+
+.im0cp {
+  display: none;
+  position: absolute;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  height: 53vw;
+  width: 80vw;
 }
-.image-wrapper{
-  width:32.292vw;
-  height:49.861vw;
-  background-color:black;
-  background-color: black;
-  border: solid 2px white;
-}//
+.im00cp {
+  display: none;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 53vw;
+  width: 80vw;
+}
+.uspeshno {
+  position: absolute;
+  width: 40vw;
+}
