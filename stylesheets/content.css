@@ -228,7 +228,7 @@ animation-play-state: paused;
          width: 6%;
          height: 5.417vw;
          background: black;
-         z-index: 0;
+         z-index: 3;
          transform: rotate(-90deg);
 
        }
@@ -951,7 +951,7 @@ grid-template-rows: repeat(2, 1fr);
 }
 .im1cp{
   border: solid 2px white;
-  width: 32vw;
+  width: 36vw;
   height: 53vw;
 
 }
@@ -1010,7 +1010,7 @@ p11{
 
  p22{
   font-family: 'ProtoGroteskb';
-  font-size: 2.4vw;
+  font-size: 3vw;
   font-style: normal;
   color: white;
   line-height: 4vw;
