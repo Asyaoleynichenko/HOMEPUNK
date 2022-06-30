@@ -877,9 +877,10 @@ grid-template-rows:2fr 2fr;
   border: 1px double white;
 }
 .band{
-  top: 307.4vw;
+  top: 306vw;
   position: absolute;
-  height: 85.792vw;
+  height: 84.792vw;
+  weight:67.639vw;
 }
 .div22 {
   grid-area: 1 / 2 / 2 / 3;
