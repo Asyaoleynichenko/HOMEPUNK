@@ -778,7 +778,7 @@ width: 45vw;
 
 }
 @keyframes place-move {
-   0% {left: 100%;}
+   0% {left: 40%;}
    100% {left: -100%;}
    }
 .place2{
