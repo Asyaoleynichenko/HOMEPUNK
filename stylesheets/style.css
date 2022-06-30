@@ -107,6 +107,7 @@ a{
  -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: black;}
   .pep{
+    width: 80vw;
     font-size:1.667vw;
     font-family:ProtoGroteskr;
     color: white;
