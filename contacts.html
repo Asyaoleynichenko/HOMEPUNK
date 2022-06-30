@@ -17,6 +17,13 @@
 <meta name="theme-color" content="#ffffff">
 </head>
   <body>
+    <script>
+    $(document).ready(function(){
+      $('.bb1').click(function() {
+        $('.im0cp').addClass("im00cp");
+      });
+      });
+  </script>
     <div class="header">
         <div class="header-title">
           <p><a href="index.html"><img class="hp" href="index.html"src="images/hp.svg"></a></p>
@@ -46,10 +53,12 @@
        <hr>
        <input type="text" name="" value="" placeholder="ПРОБЛЕМА">
        <hr>
-       <button type="submit" name="button">ОТПРАВИТЬ</button>
+       <button class="bb1" type="submit" name="button">ОТПРАВИТЬ</button>
         </div>
    </div>
-
+   <div class="im0cp">
+     <img class="uspeshno" src="images/uspeshno.svg">
+   </div>
    <div class="box3c"></div>
   </div>
   <div class="cont3c">
